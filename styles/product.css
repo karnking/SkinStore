@@ -1,0 +1,205 @@
+#product{
+    font-family: "Lato-Light",Helvetica,Arial,sans-serif;
+    line-height: 1.4;
+    color: #2e3337;
+    font-weight: 300;
+    text-transform: none;
+}
+#product input[type="button"]{
+    cursor: pointer;
+}
+#product>div:first-child{
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    gap: 4%;
+}
+#product>div:first-child>div:first-child{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+}
+#product hr{
+    color: #999;
+    margin-bottom: 0;
+    width: 100%;
+}
+#product h2{
+    font-size: 18px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#product>div:first-child>div:first-child p,li{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #969696;
+    font-weight: 300;
+    text-transform: none;
+    margin-bottom: 12px;
+}
+#product>div:first-child>div:last-child h1{
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+#product>div:first-child>div:first-child>img{
+    width: 50%;
+    margin: auto;
+}
+#product>div:first-child>div:last-child{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+#product>div:first-child>div:last-child hr+div{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    margin-bottom: 25px;
+}
+#product>div:first-child>div:last-child hr+div>div{
+    display: flex;
+    align-items: flex-end;
+}
+#product #qt{
+    padding: 10px 15px;
+    margin: 0;
+    border: 1px solid #878787;
+    border-radius: 0;
+    max-width: 18px;
+    height: 18.4px;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+}
+#product #plus,#product #minus{
+    padding: 0px 17px;
+    font-size: 25px;
+    margin: 0;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+#product #plus:hover,#product #minus:hover{
+    background-color:#e1fffe;
+}
+#product>div:first-child>div:last-child>input{
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 1.5em;
+}
+#product>div:first-child>div:last-child>input:hover{
+    color: #333;
+    background-color: #28bdb7;
+}
+#product #wishlistIt{
+    display: flex;
+    gap: 5px;
+    color: #2e3337;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 13.5px;
+    width: 137px;
+    padding: 10px 5px;
+}
+#product #wishlistIt:hover{
+    background-color: #dbdbdb;
+}
+#product #wishlistIt>i{
+    font-size: 20px;
+}
+#product #stock{
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+#product #giftBtn{
+    background: white;
+    color: #6f6f6f;
+    font-size: 14px;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #ba3d49;
+}
+#product #giftBtn+div>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#product #gift_image{
+    width: 45%;
+}
+#product #gift_image+div>h3{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+}
+#product #gift-sec-title{
+    font-size: 18px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+    padding-top: 4px 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#product #gift-desc{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #969696;
+    font-weight: 300;
+    margin: 16px 0;
+    padding-bottom: 0;
+}
+#product #buy-gift{
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    color: #7f8a92;
+    border: 1px solid black;
+}
+#product>div:last-child{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #2e3337;
+    margin-bottom: 16px;
+    width: 70%;
+    padding: 20px;
+}
+#product>div:last-child>div{
+    font-size: 36px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+}
+#product>div:last-child>p{
+    font-size: 13px;
+    line-height: 1.4;
+    color: #363a3d;
+    font-weight: 300;
+    text-transform: none;
+    max-width: 45%;
+    margin-bottom: 16px;
+}
+#product>div:last-child>input{
+    width: 35%;
+    padding: 13px 10px;
+    font-size: 14px;
+    background-color: white;
+    color: #363a3d;
+    border: 1px solid black;
+}
