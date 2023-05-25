@@ -1,0 +1,132 @@
+*{
+    font-family: "Lato-Regular",Helvetica,Arial,sans-serif;
+}
+input[type="button"]{
+    cursor: pointer;
+}
+#productGrid{
+    padding: 4%;
+}
+#productGrid>div:last-child{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw
+}
+#productGrid>div:last-child>div:first-child{
+    width: 20%;
+}
+#productGrid>div:last-child>div:last-child{
+    width: 80%;
+}
+#productGrid>div:last-child>div:last-child>h1{
+    font-size: 40px;
+    line-height: 1.4;
+    color: #2e3337;
+    font-weight: 700;
+}
+#productGrid>div:last-child>div:last-child>p{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #535759;
+    font-weight: 300;
+    text-transform: none;
+}
+#productGrid>div:last-child>div:last-child>div{
+    margin-left: 10px;
+}
+#productGrid>div:last-child>div:last-child>p+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#productGrid>div:last-child>div:last-child>div>label{
+    white-space: nowrap;
+    color: #535759;
+    font-size: 14px;;
+    line-height: 40px;
+    padding-right: 20px;
+}
+#productGrid>div:last-child>div:last-child>div>select{
+    padding: 10px 6.5vw 10px 10px;
+    font-size: 14px;
+    color: #747a7c;
+}
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 1% 2%;
+}
+#product-grid img {
+    width: 100%;   
+    cursor: pointer;
+}
+#product-grid i{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 1%;
+    font-size: 23px;
+    border-radius: 200rem;
+    padding: 7px;
+}
+#product-grid i:hover{
+    background-color:rgb(189, 189, 189);
+}
+#product-grid button {
+    width: 100%;
+    height: 5vh;
+}
+
+#product-grid h3 {
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 5vh;
+}
+
+#product-grid p {
+    font-size: 12px;
+    line-height: 1.3;
+    color: #797979;
+    font-weight: 300;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 6px;  
+}
+
+#product-grid h5 {
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgb(61, 60, 60);
+    font-weight: normal;
+    text-transform: none;
+    margin-top: 0px;
+    margin-bottom: -2px;
+    letter-spacing: 0.3px;
+}
+
+#product-grid button {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 15px 0px 30px;
+    color: #fff;
+    font-size: 14px;
+    border: 0px solid black;
+}
+
+#product-grid button:hover {
+    color: #333;
+    background-color: #28bdb7;
+}
+
+#product-grid>div>div>input{
+    background: white;
+    color: #6f6f6f;
+    font-size: 14px;
+    padding: 7px;
+    border: 1px solid #ba3d49;
+}

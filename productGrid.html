@@ -4,21 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="./styles/homebar.css">
+    <title>Product Grid</title>
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/product.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/productGrid.css">
+    <script src="https://kit.fontawesome.com/17cb428520.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="homebar">Homebar</div>
     <div id="navbar">Navbar</div>
-    <h1 id="home">Homepage</h1>
+    <div id="productGrid">
+        <p>Featured</p>
+        <div>
+            <div>
+                <img id="brand-logo"/>
+                <input type="button" value="SHOP NOW" id="brand-shop"/>
+            </div>
+            <div id="featured"></div>
+        </div>
+        <hr/>
+        <div>
+            <div>
+                <h2>Refine</h2>
+                <hr/>
+                <h3>Gender</h3>
+                <hr/>
+                <div>
+                    <div id="boys">
+                        <input type="checkbox">
+                        <label>Boys</label>
+                    </div>
+                    <div  id="girls">
+                        <input type="checkbox">
+                        <label>Girls</label>
+                    </div>
+                    <div  id="men">
+                        <input type="checkbox">
+                        <label>Men</label>
+                    </div>
+                    <div  id="women">
+                        <input type="checkbox">
+                        <label>Women</label>
+                    </div>
+                </div>
+                <h3>Price</h3>
+                <hr/>
+                <div>
+                    <div id="price-10">
+                        <input type="checkbox">
+                        <label>$10-$25</label>
+                    </div>
+                    <div  id="price-25">
+                        <input type="checkbox">
+                        <label>$25-$50</label>
+                    </div>
+                    <div  id="price-50">
+                        <input type="checkbox">
+                        <label>$50-$100</label>
+                    </div>
+                    <div  id="price-100">
+                        <input type="checkbox">
+                        <label>More than $100</label>
+                    </div>
+                </div>
+                <h3>Average Review</h3>
+                <hr/>
+                <div>
+                    <div id="avg-review-2">
+                        <input type="checkbox">
+                        <label>2-3 Start</label>
+                    </div>
+                    <div id="avg-review-3">
+                        <input type="checkbox">
+                        <label>3-4 Start</span>)</label>
+                    </div>
+                    <div id="avg-review-4">
+                        <input type="checkbox">
+                        <label>4+ Start</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Skin Cleansers</h1>
+                <p>513 results</p>
+                <p>Keep your skin clean and refreshed with our extensive range of skin cleansers. We have a thorough choice of cleansers, micellar waters and make-up removers designed to cater for each individual skin type and concern, from a wide range of brands. Whether you suffer from sensitive, oily or acne prone skin, you can achieve the results you require from our tailored choices. For a professional cleanse, try our range of premium brands such as Caudalie, Avene and Decleor. For a more medicated, specialized cleanse, why not check out SkinCeuticals, Murad or Paula's Choice? Remove dirt, grime and impurities effectively by ensuring one of our cleansers is incorporated into your daily skin care regime. </p>
+                <div>
+                    <label>Sort by</label>
+                    <select id="sort">
+                        <option value="">Default</option>
+                        <option value="pop">Popularity</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                        <option value="">A-Z</option>
+                        <option value="">Newest Arrivals</option>
+                    </select>
+                </div>
+                <div id="product-grid">
+
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="footer">Footer</div>
 </body>
-<script src="./scripts/homebar.js"></script>
+<script src="./scripts/productsArray.js"></script>
 <script src="./scripts/navbar.js"></script>
-<script src="./scripts/product.js"></script>
+<script src="./scripts/productGrid.js"></script>
 <script src="./scripts/footer.js"></script>
 </html>

@@ -1,4 +1,5 @@
-var idxOfProduct = 0;
+var idxOfProduct = Number(localStorage.getItem("showProduct"));
+var cart = JSON.parse(localStorage.getItem("cart")) || {};
 function showProductDesc(){
   var data = productsArray[idxOfProduct];
   var giftData = giftsArray[idxOfProduct];
@@ -60,10 +61,10 @@ function decreaseQt(){
   qtBox.value = Number(qtBox.value) - 1;  
 }
 function addToCartFn(){
-  
+  var qt = document.querySelector("#product #qt").value
 }
 function giftToCartFn(){
-
+  window.location.href = "../productGrid.html"
 }
 function wishlistFn(){
   
