@@ -21,7 +21,7 @@ function showProductDesc(){
   var titleH1 = document.querySelector("#product #title");
   titleH1.textContent = data.title;
   var priceH1 = document.querySelector("#product #price");
-  priceH1.textContent = "HK$"+data.price;
+  priceH1.textContent = "HK$"+data.aPrice;
   var plusBtn = document.querySelector("#product #plus");
   plusBtn.addEventListener("click",increaseQt);
   var minusBtn = document.querySelector("#product #minus");

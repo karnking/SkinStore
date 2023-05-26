@@ -7,9 +7,16 @@ for(x in featured){
         var featuredBox = document.querySelector("#featured");
         var div1 = document.createElement("div")
         var brand_img = document.createElement("img")
-        brand_img.setAttribute("src",featured.product1.img)
+        brand_img.setAttribute("src",featured[x].img)
+        var div2 = document.createElement("div")
         var brand_title = document.createElement("a")
-        brand_title.textContent = featured.product1
+        brand_title.textContent = featured[x].title;
+        var brand_price = document.createElement("a")
+        brand_price.textContent = "$ "+featured[x].price;
+        div2.append(brand_title,brand_price)
+        div1.append(brand_img,div2)
+        featuredBox.append(div1)
+        console.log(x)
     }
 }
 //product grid part
