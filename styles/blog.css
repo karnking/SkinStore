@@ -65,3 +65,13 @@ body{
     background-color: skyblue;
     border: 2px solid black;
 }
+.anhor{
+    color: rgb(156, 156, 156);
+    font-size: large;
+    font-weight: 5;
+    
+}
+.heading{
+    color: rgb(62, 62, 62);
+    font-size: medium;
+}
