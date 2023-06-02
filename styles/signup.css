@@ -5,14 +5,46 @@ body {
     background-color: #f2f2f2;
     width: auto;
   }
-  
-  .container {
+  #signup .icon>img{
+    background-color: white;
+    width:30px;
+    height: 30px;
+    gap: 4px;
+
+  }
+  #signup .ref{
+    padding: 8px;
+  }
+  #signup .continue-buttons{
+    /* max-width: 600px;
+    background-color: black; */
+    width: 700px;
+    height: 40px;
+    background-color: black; 
+    color: white;
+  }
+  #signup .container {
+    
     display: flex;
-    max-width: 800px;
+    max-width: 600px;
+    /* width: 500px; */
     margin: 100px auto;
   }
+  #signup .nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* position: fixed; */
+    /* height: 5%; */
+    background-color: white;
+    padding-top: 4px;
+    padding-left: 55px;
+    padding-bottom: 10px;
+    margin-bottom: -60px;
+  }
   
-  .box {
+  #signup .box {
     flex: 1;
     margin: 0 10px;
     padding: 20px;
@@ -21,32 +53,33 @@ body {
     
   }
 
-  h1 {
+ #signup  h1 {
     text-align: left;
     color: #333;
     margin-bottom: 70px;
     font-style:"Times New Roman", Times, serif;
   }
   
-  h2 {
+  #signup h2 {
     text-align: left;
     color: #333;
     margin-bottom: 30px;
   }
 
-  h3 {
+ #signup  h3 {
     text-align: left;
     color: #555;
     margin-top: 30px;
   }
   
-  .signup-buttons {
+  #signup .signup-buttons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    
   }
   
-  .signup-buttons button {
+  #signup .signup-buttons button {
     padding: 10px;
     
     border-radius: 4px;
@@ -54,40 +87,43 @@ body {
     font-size: 16px;
     cursor: pointer;
     display: flex;
+    /* gap: 5px; */
+    justify-content: flex-start;
     align-items: center;
     
   }
   
-  .signup-buttons button.facebook {
-    background-color: #3b5998;
+  #signup .signup-buttons button.facebook {
+    /* background-color: #3b5998; */
+    background-color:white;
     color: #fff;
     margin-right: 5px;
   }
   
-  .signup-buttons button.google {
-    background-color: #dd4b39;
+  #signup .signup-buttons button.google {
+    background-color:white;
     color: white;
     margin-left: 5px;
   }
   
-  .signup-buttons button .icon {
+  #signup .signup-buttons button .icon {
     margin-right: 5px;
     width: 250px;
     height: 30px;
     display: inline-block;
   }
   
-  .signup-form {
+  #signup .signup-form {
     margin-top: 20px;
   }
   
-  .signup-form label {
+  #signup .signup-form label {
     display: block;
     margin-bottom: 8px;
     color: #555;
   }
   
-  .signup-form input {
+  #signup .signup-form input {
     width: 100%;
     padding: 8px;
     margin-bottom: 20px;
@@ -96,18 +132,18 @@ body {
     box-sizing: border-box;
   }
   
-  .signup-form input[type="text"],
-  .signup-form input[type="email"],
-  .signup-form input[type="password"],
-  .signup-form input[type="tel"] {
+  #signup .signup-form input[type="text"],
+  #signup .signup-form input[type="email"],
+  #signup .signup-form input[type="password"],
+  #signup .signup-form input[type="tel"] {
     width: 100%;
   }
   
-  .signup-form .line {
+  #signup.signup-form .line {
     margin: 20px 0;
     border-top: 1px solid #ccc;
   }
-  .continue-buttons{
+  #signup.continue-buttons{
     width: 100%;
     height: 40px;
     background-color: black;
