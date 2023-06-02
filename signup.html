@@ -8,7 +8,36 @@
     <link rel="stylesheet" href="./styles/signup.css">
 </head>
 <body>
-    <div id="signup">Signup</div>
+    <div id="signup">
+        <div class="containe">
+            <div class="box">
+              <h1>About You</h1>
+              <h2>Sign Up</h2>
+              <div class="signup-buttons">
+                <button class="facebook"><span class="icon"></span>Facebook</button>
+                <button class="google"><span class="icon"></span>Google</button>
+              </div>
+              <h3>Or create an email account</h3>
+              <div class="line"></div>
+              <form class="signup-form" action="/signup" method="post">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="confirm-email">Confirm Email Address</label>
+                <input type="email" id="confirm-email" name="confirm-email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <label for="phone-number">Cell Phone Number (Optional)</label>
+                <input type="tel" id="phone-number" name="phone-number">
+                <button class="continue-buttons" type="submit">Continue</button>
+                <p>By proceeding, you are confirming that you agree to our Terms and Conditions and Privacy Policy.</p>
+              </form>
+            </div>
+          </div>
+    </div>
 </body>
 <script src="./scripts/signup.js"></script>
 </html>
