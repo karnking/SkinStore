@@ -21,7 +21,7 @@ function showProductDesc(){
   var titleH1 = document.querySelector("#product #title");
   titleH1.textContent = data.title;
   var priceH1 = document.querySelector("#product #price");
-  priceH1.textContent = "HK$"+data.aPrice;
+  priceH1.textContent = "$"+data.aPrice;
   var plusBtn = document.querySelector("#product #plus");
   plusBtn.addEventListener("click",increaseQt);
   var minusBtn = document.querySelector("#product #minus");
@@ -39,11 +39,13 @@ function showProductDesc(){
   imgGift.setAttribute("src",giftData.img);
   var giftBtn = document.querySelector("#product #giftBtn");
   giftBtn.value = giftData.sec_title;
-  giftBtn.addEventListener("click",showPopUp);
+  giftBtn.addEventListener("click",function(){
+    showPopUp(giftData)
+  });
   var giftTitle = document.querySelector("#product #gift-title");
   giftTitle.textContent = giftData.title;
   var giftPrice = document.querySelector("#product #gift-price");
-  giftPrice.textContent = "HK$"+giftData.price;
+  giftPrice.textContent = "$  "+giftData.price;
   var secTitle = document.querySelector("#product #gift-sec-title");
   secTitle.textContent = giftData.sec_title;
   var giftDesc = document.querySelector("#product #gift-desc");
@@ -69,6 +71,7 @@ function giftToCartFn(){
 function wishlistFn(){
   
 }
-function showPopUp(){
-
+function showPopUp(giftData){
+  document.querySelector(".popup").classList.toggle("open");
+  document.querySelector(".productDiv").classList.toggle("blurred")
 }

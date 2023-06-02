@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/productGrid.css">
     <script src="https://kit.fontawesome.com/17cb428520.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="navbar">Navbar</div>
@@ -26,9 +29,45 @@
             <div>
                 <h2>Refine</h2>
                 <hr/>
-                <h3>Gender</h3>
-                <hr/>
-                <div>
+                <h3 class="h3">Skin Type</h3>
+                <hr>
+                <div class="check-options">
+                    <div id="all">
+                        <input type="checkbox">
+                        <label>All (221)</label>
+                    </div>
+                    <div  id="girls">
+                        <input type="checkbox">
+                        <label>Combination (198)</label>
+                    </div>
+                    <div  id="men">
+                        <input type="checkbox">
+                        <label>Dehydrated(8)</label>
+                    </div>
+                    <div  id="women">
+                        <input type="checkbox">
+                        <label>Dry(180)</label>
+                    </div>
+                    <div  id="women">
+                        <input type="checkbox">
+                        <label>Mature(140)</label>
+                    </div>
+                    <div  id="women">
+                        <input type="checkbox">
+                        <label>Normal(227)</label>
+                    </div>
+                    <div  id="women">
+                        <input type="checkbox">
+                        <label>Oily(193)</label>
+                    </div>
+                    <div  id="women">
+                        <input type="checkbox">
+                        <label>Sensitive(188)</label>
+                    </div>
+                </div>
+                <h3 class="h3">Gender</h3>
+                <hr>
+                <div class="check-options">
                     <div id="boys">
                         <input type="checkbox">
                         <label>Boys</label>
@@ -46,9 +85,13 @@
                         <label>Women</label>
                     </div>
                 </div>
-                <h3>Price</h3>
-                <hr/>
-                <div>
+                <h3 class="h3">Price</h3>
+                <hr>
+                <div class="check-options">
+                    <div id="price-0">
+                        <input type="checkbox">
+                        <label>Less than $10</label>
+                    </div>
                     <div id="price-10">
                         <input type="checkbox">
                         <label>$10-$25</label>
@@ -66,27 +109,28 @@
                         <label>More than $100</label>
                     </div>
                 </div>
-                <h3>Average Review</h3>
-                <hr/>
-                <div>
+                <h3 class="h3">Average Review</h3>
+                <hr>
+                <div class="check-options">
                     <div id="avg-review-2">
                         <input type="checkbox">
-                        <label>2-3 Start</label>
+                        <label>2-3 Star</label>
                     </div>
                     <div id="avg-review-3">
                         <input type="checkbox">
-                        <label>3-4 Start</span>)</label>
+                        <label>3-4 Star</span></label>
                     </div>
                     <div id="avg-review-4">
                         <input type="checkbox">
-                        <label>4+ Start</label>
+                        <label>4+ Star</label>
                     </div>
                 </div>
             </div>
-            <div>
-                <h1>Skin Cleansers</h1>
-                <p>513 results</p>
-                <p>Keep your skin clean and refreshed with our extensive range of skin cleansers. We have a thorough choice of cleansers, micellar waters and make-up removers designed to cater for each individual skin type and concern, from a wide range of brands. Whether you suffer from sensitive, oily or acne prone skin, you can achieve the results you require from our tailored choices. For a professional cleanse, try our range of premium brands such as Caudalie, Avene and Decleor. For a more medicated, specialized cleanse, why not check out SkinCeuticals, Murad or Paula's Choice? Remove dirt, grime and impurities effectively by ensuring one of our cleansers is incorporated into your daily skin care regime. </p>
+            <div id="page">
+                <h1></h1>
+                <p></p>
+                <div class="page-desc"><p></p></div>
+                <a id="read-more">Read More</a>
                 <div>
                     <label>Sort by</label>
                     <select id="sort">
