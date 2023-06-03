@@ -1,9 +1,6 @@
-body {
+  body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f2f2f2;
-    width: auto;
   }
   #signup .icon>img{
     background-color: white;
@@ -148,4 +145,4 @@ body {
     height: 40px;
     background-color: black;
     color: white;
-  }
+}
