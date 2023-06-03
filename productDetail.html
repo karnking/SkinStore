@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/productDetail.css">
+    <script src="https://kit.fontawesome.com/17cb428520.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="homebar">Homebar</div>
+    <div id="navbar">Navbar</div>
+    <div id="product" class="productDiv">
+        <div>
+            <div>
+                <img id="main_image"/>
+                <hr>
+                <h2>Description</h2>
+                <p id="desc"></p>
+                <hr/>
+                <h2>Ingredients</h2>
+                <p id="ingredients"></p>
+                <hr/>
+                <h2>Directions</h2>
+                <ul id="directions"></ul>
+                <hr/>
+            </div>
+            <div>
+                <h1 id="title"></h1>
+                <h1 id="price"></h1>
+                <hr/>
+                <div>
+                    <p>Quantity</p>
+                    <div>
+                        <input type="button" value="-" id="minus"/>
+                        <input type="text" id="qt"/>
+                        <input type="button" value="+" id="plus"/>
+                    </div>
+                </div>
+                <input type="button" value="ADD TO CART" id="addToCart">
+                <div id="wishlistIt">
+                    <i class="fa-regular fa-heart"></i>
+                    Save to Wisthlist
+                </div>
+                <label id="stock"></label>
+                <div class="popup">
+                </div>
+                <div>
+                    <input type="button" id="giftBtn"/>
+                    <div>
+                        <div>
+                            <img id="gift_image"/>
+                            <div>
+                                <h3 id="gift-title"></h3>
+                                <h3 id="gift-price"></h3>
+                            </div>
+                        </div>
+                        <h2 id="gift-sec-title"></h2>
+                        <hr/>
+                        <p id="gift-desc"></p>
+                        <input type="button" id="buy-gift" value="SHOP NOW">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>Customer Reviews</div>
+            <p>This product has no reviews. Be the first to write a review and you could <br/>WIN A $100 Voucher</p>
+            <input type="button" value="WRITE A PRODUCT REVIEW">
+        </div>
+    </div>
+    <div id="footer">Footer</div>
+</body>
+<script src="./scripts/productsArray.js"></script>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts/productDetail.js"></script>
+<script src="./scripts/footer.js"></script>
+</html>
