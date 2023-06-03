@@ -1,15 +1,16 @@
 var idxOfProduct = Number(localStorage.getItem("showProduct"));
+var tab = localStorage.getItem("tab");
 var cart = JSON.parse(localStorage.getItem("cart")) || {};
 function showProductDesc(){
-  var data = productsArray[idxOfProduct];
-  var giftData = giftsArray[idxOfProduct];
+  var data = productsArray[tab].arr[idxOfProduct];
+  var giftData = giftsArray[0];
   // left div
   var imgMain = document.querySelector("#product #main_image");
-  imgMain.setAttribute("src",data.img);
+  imgMain.setAttribute("src",data.main_img);
   var descDiv = document.querySelector("#product #desc");
   descDiv.innerHTML = data.desc;
   var ingredientsDiv = document.querySelector("#product #ingredients");
-  ingredientsDiv.textContent = data.ingredients;
+  ingredientsDiv.innerHTML = data.ingredients;
   var directionsUL = document.querySelector("#product #directions");
   directionsUL.innerHTML = ""
   data.procedure.map(function(obj){
