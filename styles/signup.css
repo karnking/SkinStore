@@ -1,9 +1,6 @@
-body {
+  body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f2f2f2;
-    width: auto;
   }
   #signup .icon>img{
     background-color: white;
@@ -139,13 +136,13 @@ body {
     width: 100%;
   }
   
-  #signup.signup-form .line {
+  #signup .signup-form .line {
     margin: 20px 0;
     border-top: 1px solid #ccc;
   }
-  #signup.continue-buttons{
+  #signup .continue-buttons{
     width: 100%;
     height: 40px;
     background-color: black;
     color: white;
-  }
+}
