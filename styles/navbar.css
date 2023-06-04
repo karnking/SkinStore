@@ -1,0 +1,131 @@
+
+
+.firstBar{
+    background-color: #f2f2f2;
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+.innerBar{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 32px;
+}
+
+.us_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usButton a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us_logo{
+    width: 16px;
+    border-radius: 50%;
+}
+
+.usButton, .helpButton{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.usButton a span{
+    margin: 0 5px;
+}
+
+.usButton a, .helpButton a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.usButton:hover, .helpButton:hover{
+    background-color: #e6e6e6;
+}
+
+
+/* secone bar */
+
+.secondBar{
+    border-bottom: 2px solid black;
+    margin-bottom: 12px;
+}
+
+.contentBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+}
+.headerLogo{
+    height: 60px;
+    margin: 12px 0;
+}
+
+.inputGroup{
+    display: flex;
+    align-items: center;
+    border: 0.800px solid #333;
+    /* flex-grow: 1; */
+    flex-basis: 460px;
+    height: 32px;
+}
+
+.inputGroup input{
+    flex-grow: 1;
+    outline: none;
+    border: none;
+}
+
+.inputGroup svg{
+    height: 27px;
+    width: 30px;
+}
+
+.accountGroup a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.cartGroup a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+/* nav items  */
+
+.nav_items{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.nav_items ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.nav_items ul li{
+    padding: 8px 16px;
+}
+
+.nav_items ul li:hover{
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+}

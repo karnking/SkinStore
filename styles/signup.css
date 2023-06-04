@@ -1,147 +1,439 @@
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  #signup .icon>img{
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    font-weight: 500;
+    color:rgb(33, 32, 32);
+}
+body
+{
+    background-color: rgb(236, 235, 235);
+    position:relative;
+    top: 150px;
+}
+#topsection
+{
+    position: fixed;
     background-color: white;
-    width:30px;
-    height: 30px;
-    gap: 4px;
-  }
-  #signup .ref{
-    padding: 8px;
-  }
-  #signup .continue-buttons{
-    /* max-width: 600px;
-    background-color: black; */
-    width: 700px;
-    height: 40px;
-    background-color: black; 
-    color: white;
-  }
-  #signup .container {
-    
-    display: flex;
-    max-width: 600px;
-    /* width: 500px; */
-    margin: 100px auto;
-  }
-  #signup .nav{
+    width:100%;
+    top: 0px;
+    /* padding-left: 40px;;
+    padding-top: 5px;;
     position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    /* position: fixed; */
-    /* height: 5%; */
-    background-color: white;
-    padding-top: 4px;
-    padding-left: 55px;
-    padding-bottom: 10px;
-    margin-bottom: -60px;
-  }
-  
-  #signup .box {
-    flex: 1;
-    margin: 0 10px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-  }
-
- #signup  h1 {
-    text-align: left;
-    color: #333;
-    margin-bottom: 70px;
-    font-style:"Times New Roman", Times, serif;
-  }
-  
-  #signup h2 {
-    text-align: left;
-    color: #333;
-    margin-bottom: 30px;
-  }
-
- #signup  h3 {
-    text-align: left;
-    color: #555;
-    margin-top: 30px;
-  }
-  
-  #signup .signup-buttons {
+     */
+    height: 100px;
+    padding-left: 4%;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-  }
-  
-  #signup .signup-buttons button {
-    padding: 10px;
-    
-    border-radius: 4px;
-    color: #000;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    /* gap: 5px; */
-    justify-content: flex-start;
     align-items: center;
-    
-  }
-  
-  #signup .signup-buttons button.facebook {
-    /* background-color: #3b5998; */
-    background-color:white;
-    color: #fff;
-    margin-right: 5px;
-  }
-  
-  #signup .signup-buttons button.google {
-    background-color:white;
-    color: white;
-    margin-left: 5px;
-  }
-  
-  #signup .signup-buttons button .icon {
-    margin-right: 5px;
-    width: 250px;
-    height: 30px;
-    display: inline-block;
-  }
-  
-  #signup .signup-form {
-    margin-top: 20px;
-  }
-  
-  #signup .signup-form label {
-    display: block;
-    margin-bottom: 8px;
-    color: #555;
-  }
-  
-  #signup .signup-form input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
+}
+#topsection>img
+{
+    width: 200px;
+}
+
+.formGroup{
+  width: 48%;
+  margin: auto;
+  background-color: white;
+}
+
+.formSection{
+  padding: 32px;
+}
+
+.aboutUs{
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+  color: rgb(51, 51, 51);
+}
+.gap{
+  padding: 16px 0;
+}
+
+.signupWith{
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;;
+}
+
+
+.authButtons{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: -16px;
+}
+
+.google{
+  flex: 0 1 50%;
+  margin-bottom: 16px;
+  padding-right: 8px;
+}
+
+.facebook{
+  flex: 0 1 50%;
+  margin-bottom: 16px;
+  padding-right: 8px;
+}
+
+
+.facebook a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out 0s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+  text-decoration: none;
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px;
+  color: rgb(102, 102, 102);
+  border-color: rgb(140, 140, 140);
+  background-color: rgb(255, 255, 255);
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+
+.facebook a:hover{
+  border-width: 1px;
+  color: rgb(102, 102, 102);
+  border-color: rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
+}
+
+.google a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out 0s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+  text-decoration: none;
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px;
+  color: rgb(102, 102, 102);
+  border-color: rgb(140, 140, 140);
+  background-color: rgb(255, 255, 255);
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+
+.google a:hover{
+  border-width: 1px;
+  color: rgb(102, 102, 102);
+  border-color: rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
+}
+
+.lineBreak{
+  margin-top: 40px;
+  height: 1px;
+  background: rgb(204, 204, 204);
+
+}
+
+
+.accountFormTitle{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: rgb(51, 51, 51);
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.fullName{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.fullName label{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.fullName input{
+  background-color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(140, 140, 140);
     border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  #signup .signup-form input[type="text"],
-  #signup .signup-form input[type="email"],
-  #signup .signup-form input[type="password"],
-  #signup .signup-form input[type="tel"] {
-    width: 100%;
-  }
-  
-  #signup .signup-form .line {
-    margin: 20px 0;
-    border-top: 1px solid #ccc;
-  }
-  #signup .continue-buttons{
-    width: 100%;
-    height: 40px;
-    background-color: black;
-    color: white;
+    border-style: solid;
+    margin: 4px 1px 0px;
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.email label{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.email input{
+  background-color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(140, 140, 140);
+    border-radius: 4px;
+    border-style: solid;
+    margin: 4px 1px 0px;
+}
+
+.confirmEmail{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.confirmEmail label{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.confirmEmail input{
+  background-color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(140, 140, 140);
+    border-radius: 4px;
+    border-style: solid;
+    margin: 4px 1px 0px;
+}
+
+.password{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.password label{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.password input{
+  background-color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(140, 140, 140);
+    border-radius: 4px;
+    border-style: solid;
+    margin: 4px 1px 0px;
+}
+
+.password p{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.confirmPass{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.confirmPass label{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.confirmPass input{
+  background-color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(140, 140, 140);
+    border-radius: 4px;
+    border-style: solid;
+    margin: 4px 1px 0px;
+}
+
+
+.cellNumber{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.cellNumber label{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.cellNumber input{
+  background-color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(140, 140, 140);
+    border-radius: 4px;
+    border-style: solid;
+    margin: 4px 1px 0px;
+}
+
+.refer{
+  background-color: rgb(242, 242, 242);
+  padding: 16px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+}
+
+.referral{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.referral label{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.referral input{
+  background-color: rgb(255, 255, 255);
+    padding: 0px 8px;
+    height: 48px;
+    border-width: 1px;
+    border-color: rgb(140, 140, 140);
+    border-radius: 4px;
+    border-style: solid;
+    margin: 4px 1px 0px;
+}
+
+.referral p{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.submitForm{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px
+}
+
+.buttonFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s;
+  border: 1px solid rgb(46, 51, 55);
+  box-shadow: transparent 0px 0px 0px 0px;
+  background-color: rgb(46, 51, 55);
+}
+
+.buttonFlex button{
+  width: 100%;
+  background-color: rgb(46, 51, 55);
+  color: white;
+  padding: 10px 38px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.buttonFlex:hover{
+    outline: none;
+    background-color: rgb(40, 189, 183);
+    color: rgb(46, 51, 55);
+    border: 1px solid rgb(40, 189, 183);
+    /* padding: calc(10px) calc(38px); */
+    text-decoration: underline;
+}
+
+.policy{
+  margin-top: 32px;
+}
+.policy p{
+  font-weight: 300;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.policy p a{
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
 }

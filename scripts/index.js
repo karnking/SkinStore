@@ -1,4 +1,6 @@
-    
+
+localStorage.setItem("tab", "cleansers")
+
 var trendingOffersData = [{ image: "https://static.thcdn.com/images/small/webp/widgets/121-us/20/original-bioeffect.ss-083920.png", name: "20% off  + Extra 10% off BIOEFFECT with code: EXTRA10", content: "Discover the anti-aging power of BIOEFFECT's award-winning line of plant-based EGF skincare products.", pageUrl: "Shop.html" },
 { image: "https://static.thcdn.com/images/small/webp/widgets/121-us/08/nuface.ss-040408.jpg", name: "20% off + Extra 10% off select NuFACE with code: EXTRA10", content: "NuFACE treats your skin at every level using Microcurrent Skincare™, to help tone, firm and smooth your skin.", pageUrl: "Shop.html" },
 { image: "https://static.thcdn.com/images/small/webp/widgets/121-us/37/original-elemis.ss-083937.jpg", name: "20% off + Extra 10% off select NuFACE with code: EXTRA10", content: "ELEMIS is globally recognized for harnessing the power of natural ingredients and scientific innovation.", pageUrl: "Shop.html" },
