@@ -31,6 +31,7 @@
   position: sticky;
   position: -webkit-sticky;
   top: 0%;
+  padding: 0 3%;
 }
 #row-3{
   grid-area: c;
@@ -102,9 +103,6 @@ font-weight:795;
 #nav-link{
   display: flex;
   margin-left: 16px;
-
-  /* background-color: darkgoldenrod; */
-
 }
 
 #nav-link > li{

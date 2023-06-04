@@ -32,9 +32,11 @@ input[type="button"],a,img{
 #brand-shop:hover{
     background-color: #dfdfdf;
 }
+
 #featured{
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 #featured>div{
     display: flex;
@@ -42,7 +44,7 @@ input[type="button"],a,img{
 #featured>div>div{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #featured div img{
     width: 35%;
@@ -143,10 +145,13 @@ input[type="button"],a,img{
     content: '\25be';
 }
 #productGrid>div:last-child>div:first-child>.check-options{
-    max-height: 6em;
+    max-height: 6.1em;
     margin-top: 12px;
     overflow-y: auto;
     transition: max-height 0.5s ease-in-out;
+}
+#productGrid>div:last-child>div:first-child>.check-options>div{
+    margin-bottom: 8px;
 }
 #product-grid {
     display: grid;
@@ -212,9 +217,10 @@ input[type="button"],a,img{
 #product-grid button {
     margin-top: 20px;
     background-color: #333;
-    padding: 15px 0px 30px;
+    padding: 12px 0px 30px;
     color: #fff;
     font-size: 14px;
+    font-weight: 400;
     border: 0px solid black;
 }
 
@@ -237,16 +243,18 @@ input[type="button"],a,img{
     font-weight: 100;
     font-size: 14px;
 }
-#productGrid>div:last-child>div:first-child input[type="checkbox"]{
-    width: 18px;
-    height: 18px;
+#productGrid>div:last-child>div:first-child input[type="radio"]{
+    appearance: none;
+    width: 15px;
+    height: 15px;
     appearance: none;
     outline: 1px solid #747a7c;
+    border-radius: none;
 }
-#productGrid>div:last-child>div:first-child input[type="checkbox"]:checked{
+#productGrid>div:last-child>div:first-child input[type="radio"]:checked{
     appearance: auto;
     accent-color: black;
-    color: black
+    color: black;
 }
 #productGrid>div:last-child>div:first-child>div>div {
     display: flex;
