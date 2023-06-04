@@ -8,35 +8,31 @@
 #landingPage-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
-  grid-template-areas:
-    "a a a a a a a a a a a a"
-    "b b b b b b b b b b b b"
-    "c c c c c c c c c c c c";
 }
 
 #row-1 {
-  grid-area: a;
   background-color: rgb(242, 242, 242);
   display: flex;
   justify-content: flex-end;
   height: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding: 0 5%;
 }
 
 #row-2 {
-  grid-area: b;
+  background-color: rgb(255, 255, 255);
+  padding: 0 3%;
+  border-bottom: 2px solid black;
+}
+#row-21 {
   background-color: rgb(255, 255, 255);
   position: sticky;
   position: -webkit-sticky;
   top: 0%;
+  padding: 0 3%;
 }
-
 #row-3 {
   grid-area: c;
   background-color: rgb(255, 255, 255);
-
 }
 
 
@@ -72,7 +68,6 @@
   width: 16px;
   height: 16px;
   vertical-align: sub;
-
 }
 
 #skin-col {
@@ -98,10 +93,7 @@
 }
 
 #nav-container {
-
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(231, 222, 222);
-
+  background-color: white;
 }
 
 #nav-btn {
@@ -111,9 +103,6 @@
 #nav-link {
   display: flex;
   margin-left: 16px;
-
-  /* background-color: darkgoldenrod; */
-
 }
 
 #nav-link>li {
@@ -153,7 +142,6 @@
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
   padding: 20px 0px;
-  border-bottom: 2px solid #333;
 }
 
 #skin-col {
@@ -787,9 +775,8 @@
 
   #row-2 {
     display: flex;
-    border-bottom: 1.5px solid rgb(150, 150, 150);
+    border-bottom: 2px solid black;
   }
-
   #navAbove {
     flex-grow: 10;
     order: 2;
@@ -799,9 +786,6 @@
 
   #nav-container {
     order: 1;
-    border-bottom: 0px;
-
-
   }
 
   #nav-link {
@@ -811,7 +795,6 @@
     background-color: white;
     left: -2000px;
     height: max-content;
-
     width: 320px;
 
   }

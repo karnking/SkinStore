@@ -5,14 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+    <!-- <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css"> -->
     <link rel="stylesheet" href="./styles/cart.css">
+    <script src="https://kit.fontawesome.com/17cb428520.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="homebar">Homebar</div>
     <div id="navbar">Navbar</div>
-    <div id="cart">Cart Page</div>
+    <div id="cartPage">
+        <div>
+            <h1>Your Cart</h1>
+            <button><i class="fa fa-lock"></i> CHECKOUT SECURELY NOW</button>
+        </div>
+        <div>
+            <i class="fa fa-bell"></i>
+            Treat yourself to an Olaplex Ultimate Essentials Kit (Worth $33) NOW $28 
+        </div>
+        <div>
+            <div>
+                <div>
+                    <h3>Items</h3>
+                    <div>
+                        <h3>Price</h3>
+                        <h3>Quantity</h3>
+                        <h3>Subtotal</h3>
+                    </div>
+                </div>
+                <div id="products"></div>
+            </div>
+            <div>
+                <h3>Gift Selection</h3>
+                <p>Select a gift for you or someone you love when you spend $110 or more</p>
+                <p>Qualified<i class="fa fa-tick"></i></p>
+            </div>
+        </div>
+    </div>
     <div id="footer">Footer</div>
 </body>
 <script src="./scripts/navbar.js"></script>

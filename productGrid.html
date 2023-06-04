@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Grid</title>
-    <link rel="stylesheet" href="./styles/navbar.css">
+    <!-- <link rel="stylesheet" href="./styles/navbar.css"> -->
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/productGrid.css">
     <script src="https://kit.fontawesome.com/17cb428520.js" crossorigin="anonymous"></script>
@@ -31,98 +31,110 @@
                 <hr/>
                 <h3 class="h3">Skin Type</h3>
                 <hr>
-                <div class="check-options" id="skin_type">
-                    <div id="all">
-                        <input type="checkbox">
-                        <label>All (221)</label>
+                <div class="check-options">
+                    <div>
+                        <input id="all" name ="type" type="radio" value="all">
+                        <label for="all">All (221)</label>
                     </div>
-                    <div  id="girls">
-                        <input type="checkbox">
-                        <label>Combination (198)</label>
+                    <div>
+                        <input id="combination" name ="type" type="radio" value="combination">
+                        <label for="combination">Combination (198)</label>
                     </div>
-                    <div  id="men">
-                        <input type="checkbox">
-                        <label>Dehydrated (8)</label>
+                    <div>
+                        <input id="dehydrated" name ="type" type="radio" value="dehydrated">
+                        <label for="dehydrated">Dehydrated (8)</label>
                     </div>
-                    <div  id="women">
-                        <input type="checkbox">
-                        <label>Dry (180)</label>
+                    <div>
+                        <input id="dry" value="dry" name ="type" type="radio">
+                        <label for="dry">Dry (180)</label>
                     </div>
-                    <div  id="women">
-                        <input type="checkbox">
-                        <label>Mature (140)</label>
+                    <div>
+                        <input id="mature" value="mature" name ="type" type="radio">
+                        <label for="mature">Mature (140)</label>
                     </div>
-                    <div  id="women">
-                        <input type="checkbox">
+                    <div>
+                        <input id="normal" value="normal" name ="type" type="radio">
                         <label>Normal (227)</label>
                     </div>
-                    <div  id="women">
-                        <input type="checkbox">
-                        <label>Oily (193)</label>
+                    <div>
+                        <input id="oily" value="oily" name ="type" type="radio">
+                        <label value="oily">Oily (193)</label>
                     </div>
-                    <div  id="women">
-                        <input type="checkbox">
-                        <label>Sensitive (188)</label>
+                    <div>
+                        <input id="sensitive" value="sensitive" type="radio">
+                        <label for="sensitive">Sensitive (188)</label>
                     </div>
                 </div>
                 <h3 class="h3">Gender</h3>
                 <hr>
-                <div class="check-options" id="gender">
-                    <div id="boys">
-                        <input type="checkbox">
-                        <label>Boys</label>
+                <div class="check-options">
+                    <div>
+                        <input id="gall" value="all" name="gender" type="radio">
+                        <label for="gall">All</label>
                     </div>
-                    <div  id="girls">
-                        <input type="checkbox">
-                        <label>Girls</label>
+                    <div>
+                        <input id="boys" value="boys" name="gender" type="radio">
+                        <label for="boys">Boys</label>
                     </div>
-                    <div  id="men">
-                        <input type="checkbox">
-                        <label>Men</label>
+                    <div>
+                        <input id="girls" value="girls" name="gender" type="radio">
+                        <label for="girls">Girls</label>
                     </div>
-                    <div  id="women">
-                        <input type="checkbox">
-                        <label>Women</label>
+                    <div>
+                        <input id="men" value="men" name="gender" type="radio">
+                        <label for="men">Men</label>
+                    </div>
+                    <div>
+                        <input id="women" value="women" name="gender" type="radio">
+                        <label for="women">Women</label>
                     </div>
                 </div>
                 <h3 class="h3">Price</h3>
                 <hr>
-                <div class="check-options" id="price_range">
-                    <div id="price-0">
-                        <input type="checkbox">
-                        <label>Less than $10</label>
+                <div class="check-options">
+                    <div>
+                        <input id="pall" value="all" name="price" type="radio">
+                        <label for="pall">All</label>
                     </div>
-                    <div id="price-10">
-                        <input type="checkbox">
-                        <label>$10-$25</label>
+                    <div>
+                        <input id="ten" value="ten" name="price" type="radio">
+                        <label for="ten">Less than $10</label>
                     </div>
-                    <div  id="price-25">
-                        <input type="checkbox">
-                        <label>$25-$50</label>
+                    <div>
+                        <input id="tf" value="tf" name="price" type="radio">
+                        <label for="tf">$10-$25</label>
                     </div>
-                    <div  id="price-50">
-                        <input type="checkbox">
-                        <label>$50-$100</label>
+                    <div>
+                        <input id="fifty" value="fifty" name="price" type="radio">
+                        <label for="fifty">$25-$50</label>
                     </div>
-                    <div  id="price-100">
-                        <input type="checkbox">
-                        <label>More than $100</label>
+                    <div>
+                        <input id="hund" value="hund" name="price" type="radio">
+                        <label for="hund">$50-$100</label>
+                    </div>
+                    <div>
+                        <input id="mth" value="mth" name="price" type="radio">
+                        <label for="mth">More than $100</label>
                     </div>
                 </div>
                 <h3 class="h3">Average Review</h3>
                 <hr>
-                <div class="check-options" id="avg_rev">
-                    <div id="avg-review-2">
-                        <input type="checkbox">
-                        <label>2-3 Star</label>
+                <div class="check-options">
+                    <div>
+                        <input id="rall" value="all" name="review" type="radio">
+                        <label for="rall">All</label>
                     </div>
-                    <div id="avg-review-3">
-                        <input type="checkbox">
-                        <label>3-4 Star</span></label>
+                    <div>
+                        <input id="review_2" value="review_2" name="review" type="radio">
+                        <label for="review_2">2-3 Star</label>
                     </div>
-                    <div id="avg-review-4">
-                        <input type="checkbox">
-                        <label>4+ Star</label>
+                    <div>
+                        <input id="review_3" value="review_3" name="review" type="radio">
+                        <label for="review_3">3-4 Star</span></label>
+                    </div>
+                    <div>
+                        <input id="review_4" value="review_4" name="review" type="radio">
+                        <label for="review_4">4+ Star</label>
                     </div>
                 </div>
             </div>
