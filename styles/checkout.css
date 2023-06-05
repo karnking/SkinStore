@@ -37,6 +37,8 @@ body
 .checkoutBox{
     width: 65%;
     margin: auto;
+    display: flex;
+    gap: 10px;
 }
 
 .infoSection{
@@ -202,3 +204,34 @@ body
       padding: 10px 38px;
       text-decoration: underline;
   }
+
+  .cartInfo{
+    padding: 24px;
+    margin: 32px 0px;
+    background-color: white;
+    display: inline-block;
+    width: 28%;
+    position: fixed;
+  }
+
+  .paymentMethods h2{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+.iconList{
+    display: flex;
+    margin-bottom: 21px;
+
+}
+
+.paymentIcons{
+    height: 24px;
+    margin: 8px;
+    font-style: italic;
+    max-width: 100%;
+    vertical-align: middle;
+}

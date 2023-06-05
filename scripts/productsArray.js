@@ -68,6 +68,7 @@ var productsArray = {
             },
             {
                 id: "cl5",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054487-7024901860582746.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054487-8284935531346776.jpg",
                 title: "First Aid Beauty Face Cleanser (5 oz.)",
@@ -82,6 +83,7 @@ var productsArray = {
             },
             {
                 id: "cl6",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10363611-1624963531670292.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10363611-1664963531714518.jpg",
                 title: "Eve Lom Cleanser 7oz (Worth $170)",
@@ -95,7 +97,8 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl8",
+                id: "cl7",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207443-2214866130380732.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207443-7744859308052472.jpg",
                 title: "DHC Deep Cleansing Oil (Various Sizes)",
@@ -109,7 +112,8 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl9",
+                id: "cl8",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12100152-5864924700785761.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12100152-1484864616906646.jpg",
                 title: "The Organic Pharmacy Rose Facial Cleansing Gel 100ml",
@@ -123,7 +127,8 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl10",
+                id: "cl9",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10364095-1175048093463228.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10364095-1354864282818603.jpg",
                 title: "Dermalogica Special Cleansing Gel (500ml, Worth $78)",
@@ -137,7 +142,8 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl11",
+                id: "cl10",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291539-1905002181556714.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291539-1594855672799181.jpg",
                 title: "Obagi Medical Nu-Derm Foaming Gel",
@@ -151,7 +157,8 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl12",
+                id: "cl11",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11897434-6604882135119693.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11897434-1624882135167429.jpg",
                 title: "Sunday Riley Ceramic Slip Cleanser",
@@ -165,7 +172,8 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl13",
+                id: "cl12",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11429053-8834884255296385.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11429053-1934884255611169.jpg",
                 title: "La Roche-Posay Toleriane Purifying Foaming Cream Facial Cleanser for Sensitive Skin with Glycerin, 4.22 Fl. Oz.",
@@ -179,7 +187,8 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl14",
+                id: "cl13",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11287446-8114871898290271.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11287446-2064871898323625.jpg",
                 title: "Epionce Lytic Gel Cleanser",
@@ -192,6 +201,81 @@ var productsArray = {
                 gender: "men",
                 type: "normal"
             },
+            {
+                id: "cl14",
+                qt: 1,
+                main_img: "https://static.thcdn.com/images/large/webp/productimg/1600/1600/12281537-1664708773237741.jpg",
+                hover_img: "https://static.thcdn.com/images/large/webp/productimg/1600/1600/12281537-1624708773345477.jpg",
+                title: "Multifunctional Charcoal Soap Sponge 45 oz",
+                bPrice: "8.00",
+                aPrice: "7.00",
+                desc: "The Multifunctional Charcoal Soap Sponge is detoxifying, exfoliating, deep cleaning, dual purpose soap sponge perfect for detoxifying skin of impurities. Innovative and multifunctional design with the soap infused with a sponge, creating a soapy and exfoliating experience that.",
+                ingredients: "Deionized water, propylen glycol, sorbitol, Glycerol, Sodium palmitate fatty acids, Sodium lauryl ether sulphate, Deionized water, Propylene Glycol, Sorbitol, Citrus Extracts Bactericide, Organic compounds, citrus extract, bioflavonoids and citrus polyphenols and organic acid, Nopal Extract, Butyl hydroxytolueno, Lavender fragrance, Sodium bicarbonate, Charcoal activated pure.",
+                procedure: ["Simply wet face and soap sponge and lather, cleansing skin in circular motions.", "Use on body and even on face as well depending on your tolerance of exfoliation.", "As you use your soap sponge it will become softer making it better suited for those who have sensitive skin on the face.", "Follow with a nourishing oil or lotion to avoid dryness in skin. Squeeze and shake out excess water from soap sponge between uses and store in a soap dish to avoid residue on your sink area."],
+                reviews: 2,
+                gender: "boys",
+                type: "combination"
+            },
+            {
+                id: "cl15",
+                qt: 1,
+                main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13667933-1534940431821498.jpg",
+                hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13667933-6534940430281697.jpg",
+                title: "Q+A Rosehip Cleansing Oil 100ml",
+                bPrice: "9.60",
+                aPrice: "7.99",
+                desc: "Rich in omega 3 and 6, as well vitamin A, this oil has high antioxidant and calming properties to soothe sensitive skin. A delicate blend of Rosehip, Avocado, and Hempseed oils, rich in skin-nourishing essential fatty acids. A gentle cleanser for removing makeup.",
+                ingredients: "Prunus Amygdalus Dulcis (Sweet Almond) Oil, Rosa Canina (Rosehip) Fruit Oil, Cannabis Sativa (Hemp) Seed Oil, Persea Gratissima (Avocado) Oil, Argania Spinosa (Argan) Kernel Oil, Polyglyceryl-4 Oleate, Ricinus Communis (Castor) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol.",
+                procedure: ["Apply a few drops to the palm of your hand and massage onto your face and neck to remove makeup and impurities.", "Use a warm damp cloth to rinse"],
+                reviews: 3,
+                gender: "girls",
+                type: "combination"
+            },
+            {
+                id: "cl16",
+                qt: 1,
+                main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11200039-1884969279701081.jpg",
+                hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11200039-1544969279750092.jpg",
+                title: "PIXI Glow Mud Cleanser 135ml",
+                bPrice: "18.00",
+                aPrice: "16.00",
+                desc: "To achieve a deep and refreshing clean, use PIXI Glow Mud Cleanser on your skin both morning and night. Wash your face and apply a small amount to your skin, gently massaging it in for 30 seconds, then rinse with warm water. The mud mask, which comes in an easy to use tube, gently exfoliates the skin with the use of Glycolic Acid, that is extracted from sugar cane, without damaging the skin. The mask can be used on problem and sensitive skin to remove all traces of dry and flaky skin. It exfoliates without the need to scrub your skin.<br> The cleanser cleans deep into your skin's pores, lifting any impurities or ground-in dirt. It contains Aloe Vera and Avocado oil that helps to hydrate and plump out the skin, also helping to reduce any of those fine lines or wrinkles. What is achieved is a natural, fresh and glowing complexion. This facial mud mask is also enriched with Chamomile Extract that will soothe your skin as it is cleansed, reducing any red patches.",
+                ingredients: "Aloe Barbadensis Leaf Juice, Carthamus Tinctorius (Safflower) Seed Oil, Cetyl Alcohol, Glyceryl Stearate, Diatomaceous Earth, Glycerin, Glycolic Acid, Sodium Glycolate, Lauroamphocarboxyglycinate and Sodium Trideceth Sulfate, Squalane, Anthemis Nobilis Flower (Chamomile) Extract, Saponaria Officinalis Leaf/Root Extract, Hexylene Glycol (and) Fructose (and) Glucose (and) Sucrose (and) Urea (and) Dextrin (and) Alanine (and) Glutamic Acid (and) Aspartic Acid (and) Hexyl Nicotinate, Persea Gratissima (Avocado) Oil, Triticum Vulgare (Wheat) Germ Oil, Corylus Avellana (Hazelnut) Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Phenoxyethanol, Caprylyl Glycol, Ethylhexylglycerin, Xanthan Gum, Fragrance, Chlorphenesin, Guar Gum, Sodium Hyaluronate, Citric Acid.",
+                procedure: ["Morning and evening, apply a coin size amount to damp skin.", "Massage gently for 30 seconds, avoiding eye area.", "Rinse clean & pat dry."],
+                reviews: 1,
+                gender: "mens",
+                type: "dry"
+            },
+            {
+                id: "cl17",
+                qt: 1,
+                main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13528292-6104925959188126.jpg",
+                hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13528292-1604925945921427.jpg",
+                title: "Alo Enzyme Facial Cleanser 3.8 oz",
+                bPrice: "32.00",
+                aPrice: "30.00",
+                desc: "This gentle yet powerful cleanser creates radiance, restores & protects against environmental stress with vitamin Crich amla—nature's most potent antioxidant superberry, used for millennia in Ayurvedic healing. Aloe soothes & pineapple enzyme brightens.",
+                ingredients: "Water, Decyl Glucoside, Glycerin, Cocamidopropyl Hydroxysultaine, Disodium Cocoyl Glutamate, Coco-Glucoside, Emblica Officinalis (Amla) Fruit Extract, Aloe Barbadensis (Aloe) Leaf Extract, Aloe Barbadensis (Aloe) Leaf Juice, Persea Gratissima (Avocado) Oil, Myristoyl Pentapeptide-8, Bromelain, Sodium PCA, Sesamum Indicum (Sesame) Seed Oil, Xanthan Gum, Levulinic Acid, Glyceryl Oleate, Sodium Cocoyl Glutamate, Potassium Sorbate, Citric Acid, Sodium Levulinate, Trisodium Ethylenediamine Disuccinate, Brassica Campestris (Rapeseed) Seed Oil, Canola Oil, Natural Fragrance, Limonene, Linalool",
+                procedure: ["Wet face and neck with warm water. Dispense a dime-sized amount of Enzyme Face Cleanser and smooth over skin with fingers in small, circular motions. Rinse with warm water and pat dry.", "For best results, follow with Alo Glow System Radiance Serum and Luminizing Face Moisturizer."],
+                reviews: 4,
+                gender: "boys",
+                type: "oily"
+            },
+            {
+                id: "cl18",
+                qt: 1,
+                main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12519509-1944871998432926.jpg",
+                hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12519509-4874766263640820.jpg",
+                title: "DHC Olive Concentrated Cleansing Oil 150ml",
+                bPrice: "34.00",
+                aPrice: "30.00",
+                desc: "Ideal for anyone with dry, dehydrated skin, the DHC Olive Concentrated Cleansing Oil lifts away dirt and build-ups without stripping away essential moisture. This means you won't be left with an uncomfortable tight feeling, giving you long-lasting softness throughout the day. Added Oleic Acid ensures hydration is locked in, as it has a similar structure to the naturally occurring oils in your skin. The cleanser boats a 100% organic olive oil base that binds with unwanted particles to free them from your skin while breaking down sun cream, waterproof makeup and sebum for deep and effective cleaning.<br>Balancing your skin's pH, the water-soluble oil won't disrupt your complexion's natural environment and never leaves behind unwanted oily residues for a smooth, matte surface. Whether your skin is typically dry or is suffering more due to harsher weather, the cleansing oil helps to replenish lost moisture while also shielding you against external environmental aggressors thanks to Tocopherol (Vitamin E). The oil's lightweight texture and subtle scent create an all-round delicate sensation that won't aggravate existing sensitivity.",
+                ingredients: "Olea Europaea (Olive) Fruit Oil, PEG-20 Glyceryl Triisostearate, Triethylhexanoin, Polyglyceryl-10 Dioleate, Octyldodecanol, Caprylic/Capric Triglyceride, Ethylhexyl Palmitate, Pentylene Glycol, Ascorbyl Tetraisopalmitate, Phenoxyethanol, Stearyl Glycyrrhetinate, Tocopherol.",
+                procedure: ["Dispense 2-3 pumps into dry hands, then massage onto dry face to dissolve makeup and other impurities.", "Rinse thoroughly."],
+                reviews: 3,
+                gender: "boys",
+                type: "oily"
+            },
             
     ]},
     moisturisers: {
@@ -203,6 +287,7 @@ var productsArray = {
         arr : [
             {
                 id: "mo1",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289613-6975043613167717.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289613-3764892771164923.jpg",
                 title: "SkinCeuticals Daily Moisture",
@@ -217,6 +302,7 @@ var productsArray = {
             },
             {
                 id: "mo2",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11647081-4134943595225699.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11647081-1414943595280470.jpg",
                 title: "Sarah Chapman Icon Night Smartsome A3 X503 Moisturiser 30ml",
@@ -231,6 +317,7 @@ var productsArray = {
             },
             {
                 id: "mo3",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054488-6294867924186974.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054488-4844981948470726.jpg",
                 title: "First Aid Beauty Ultra Repair Cream (6 oz.)",
@@ -245,6 +332,7 @@ var productsArray = {
             },
             {
                 id: "mo4",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290635-9025043619566462.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290635-9174978287699645.jpg",
                 title: "SkinCeuticals Triple Lipid Restore 2:4:2",
@@ -259,6 +347,7 @@ var productsArray = {
             },
             {
                 id: "mo5",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11218590-1294969854284175.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11218590-1114969854216651.jpg",
                 title: "Revive Moisturizing Renewal Cream 50ml",
@@ -273,6 +362,7 @@ var productsArray = {
             },
             {
                 id: "mo6",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370304-7405014852016604.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370304-1194876993654206.jpg",
                 title: "EltaMD AM Therapy Facial Moisturizer",
@@ -287,6 +377,7 @@ var productsArray = {
             },
             {
                 id: "mo7",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370303-1255014851959274.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370303-1514871771637066.jpg",
                 title: "EltaMD UV Clear Broad-Spectrum SPF46",
@@ -301,6 +392,7 @@ var productsArray = {
             },
             {
                 id: "mo8",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291563-5235043619658436.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291563-1934892768127813.jpg",
                 title: "SkinCeuticals Epidermal Repair",
@@ -315,6 +407,7 @@ var productsArray = {
             },
             {
                 id: "mo9",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289681-1484871019698619.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289681-1904871019505803.jpg",
                 title: "SkinMedica TNS Ceramide Treatment Cream (2oz)",
@@ -329,6 +422,7 @@ var productsArray = {
             },
             {
                 id: "mo10",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291588-1404869687797262.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291588-2124875114973299.jpg",
                 title: "Replenix Age Restore Night Time Therapy",
@@ -343,6 +437,7 @@ var productsArray = {
             },
             {
                 id: "mo11",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289690-1794871029936020.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289690-1264871029979277.jpg",
                 title: "SkinMedica Ultra Sheer Moisturizer (2oz)",
@@ -357,6 +452,7 @@ var productsArray = {
             },
             {
                 id: "mo12",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12004607-1214929129526791.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12004607-8344929129569625.jpg",
                 title: "No7 Lift and Luminate Triple Action Night Cream 1.69oz",
@@ -371,6 +467,7 @@ var productsArray = {
             },
             {
                 id: "mo13",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289619-1605043613350945.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289619-1854892771554485.jpg",
                 title: "SkinCeuticals Hydrating B5 Hyaluronic Acid Gel Moisturizer 30ml",
