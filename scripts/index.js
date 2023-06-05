@@ -72,3 +72,15 @@ function navSlideOut() {
 function navSlideIn() {
     document.querySelector("#nav-link").style.left = "-2000px"
 }
+document.querySelector("#nav-link>li:nth-child(3)").addEventListener("click",function(){
+    var ele = document.querySelector("#mem_sale");
+    ele.scrollIntoView();
+})
+document.querySelector("#nav-link>li:nth-child(4)").addEventListener("click",function(){
+    var ele = document.querySelector("#new_offer");
+    ele.scrollIntoView();
+})
+document.querySelector("#nav-link>li:nth-child(5)").addEventListener("click",function(){
+    var ele = document.querySelector("#trending");
+    ele.scrollIntoView();
+})
