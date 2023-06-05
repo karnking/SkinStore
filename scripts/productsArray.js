@@ -68,6 +68,7 @@ var productsArray = {
             },
             {
                 id: "cl5",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054487-7024901860582746.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054487-8284935531346776.jpg",
                 title: "First Aid Beauty Face Cleanser (5 oz.)",
@@ -82,6 +83,7 @@ var productsArray = {
             },
             {
                 id: "cl6",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10363611-1624963531670292.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10363611-1664963531714518.jpg",
                 title: "Eve Lom Cleanser 7oz (Worth $170)",
@@ -96,6 +98,7 @@ var productsArray = {
             },
             {
                 id: "cl8",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207443-2214866130380732.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207443-7744859308052472.jpg",
                 title: "DHC Deep Cleansing Oil (Various Sizes)",
@@ -110,6 +113,7 @@ var productsArray = {
             },
             {
                 id: "cl9",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12100152-5864924700785761.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12100152-1484864616906646.jpg",
                 title: "The Organic Pharmacy Rose Facial Cleansing Gel 100ml",
@@ -124,6 +128,7 @@ var productsArray = {
             },
             {
                 id: "cl10",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10364095-1175048093463228.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10364095-1354864282818603.jpg",
                 title: "Dermalogica Special Cleansing Gel (500ml, Worth $78)",
@@ -138,6 +143,7 @@ var productsArray = {
             },
             {
                 id: "cl11",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291539-1905002181556714.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291539-1594855672799181.jpg",
                 title: "Obagi Medical Nu-Derm Foaming Gel",
@@ -152,6 +158,7 @@ var productsArray = {
             },
             {
                 id: "cl12",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11897434-6604882135119693.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11897434-1624882135167429.jpg",
                 title: "Sunday Riley Ceramic Slip Cleanser",
@@ -166,6 +173,7 @@ var productsArray = {
             },
             {
                 id: "cl13",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11429053-8834884255296385.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11429053-1934884255611169.jpg",
                 title: "La Roche-Posay Toleriane Purifying Foaming Cream Facial Cleanser for Sensitive Skin with Glycerin, 4.22 Fl. Oz.",
@@ -180,6 +188,7 @@ var productsArray = {
             },
             {
                 id: "cl14",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11287446-8114871898290271.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11287446-2064871898323625.jpg",
                 title: "Epionce Lytic Gel Cleanser",
@@ -203,6 +212,7 @@ var productsArray = {
         arr : [
             {
                 id: "mo1",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289613-6975043613167717.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289613-3764892771164923.jpg",
                 title: "SkinCeuticals Daily Moisture",
@@ -217,6 +227,7 @@ var productsArray = {
             },
             {
                 id: "mo2",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11647081-4134943595225699.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11647081-1414943595280470.jpg",
                 title: "Sarah Chapman Icon Night Smartsome A3 X503 Moisturiser 30ml",
@@ -231,6 +242,7 @@ var productsArray = {
             },
             {
                 id: "mo3",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054488-6294867924186974.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11054488-4844981948470726.jpg",
                 title: "First Aid Beauty Ultra Repair Cream (6 oz.)",
@@ -245,6 +257,7 @@ var productsArray = {
             },
             {
                 id: "mo4",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290635-9025043619566462.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290635-9174978287699645.jpg",
                 title: "SkinCeuticals Triple Lipid Restore 2:4:2",
@@ -259,6 +272,7 @@ var productsArray = {
             },
             {
                 id: "mo5",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11218590-1294969854284175.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11218590-1114969854216651.jpg",
                 title: "Revive Moisturizing Renewal Cream 50ml",
@@ -273,6 +287,7 @@ var productsArray = {
             },
             {
                 id: "mo6",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370304-7405014852016604.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370304-1194876993654206.jpg",
                 title: "EltaMD AM Therapy Facial Moisturizer",
@@ -287,6 +302,7 @@ var productsArray = {
             },
             {
                 id: "mo7",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370303-1255014851959274.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370303-1514871771637066.jpg",
                 title: "EltaMD UV Clear Broad-Spectrum SPF46",
@@ -301,6 +317,7 @@ var productsArray = {
             },
             {
                 id: "mo8",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291563-5235043619658436.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291563-1934892768127813.jpg",
                 title: "SkinCeuticals Epidermal Repair",
@@ -315,6 +332,7 @@ var productsArray = {
             },
             {
                 id: "mo9",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289681-1484871019698619.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289681-1904871019505803.jpg",
                 title: "SkinMedica TNS Ceramide Treatment Cream (2oz)",
@@ -329,6 +347,7 @@ var productsArray = {
             },
             {
                 id: "mo10",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291588-1404869687797262.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291588-2124875114973299.jpg",
                 title: "Replenix Age Restore Night Time Therapy",
@@ -343,6 +362,7 @@ var productsArray = {
             },
             {
                 id: "mo11",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289690-1794871029936020.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289690-1264871029979277.jpg",
                 title: "SkinMedica Ultra Sheer Moisturizer (2oz)",
@@ -357,6 +377,7 @@ var productsArray = {
             },
             {
                 id: "mo12",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12004607-1214929129526791.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12004607-8344929129569625.jpg",
                 title: "No7 Lift and Luminate Triple Action Night Cream 1.69oz",
@@ -371,6 +392,7 @@ var productsArray = {
             },
             {
                 id: "mo13",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289619-1605043613350945.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289619-1854892771554485.jpg",
                 title: "SkinCeuticals Hydrating B5 Hyaluronic Acid Gel Moisturizer 30ml",
