@@ -97,7 +97,7 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl8",
+                id: "cl7",
                 qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207443-2214866130380732.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207443-7744859308052472.jpg",
@@ -112,7 +112,7 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl9",
+                id: "cl8",
                 qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12100152-5864924700785761.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12100152-1484864616906646.jpg",
@@ -127,7 +127,7 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl10",
+                id: "cl9",
                 qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10364095-1175048093463228.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10364095-1354864282818603.jpg",
@@ -142,7 +142,7 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl11",
+                id: "cl10",
                 qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291539-1905002181556714.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291539-1594855672799181.jpg",
@@ -157,7 +157,7 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl12",
+                id: "cl11",
                 qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11897434-6604882135119693.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11897434-1624882135167429.jpg",
@@ -172,7 +172,7 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl13",
+                id: "cl12",
                 qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11429053-8834884255296385.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11429053-1934884255611169.jpg",
@@ -187,7 +187,7 @@ var productsArray = {
                 type: "normal"
             },
             {
-                id: "cl14",
+                id: "cl13",
                 qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11287446-8114871898290271.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11287446-2064871898323625.jpg",
