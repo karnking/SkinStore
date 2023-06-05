@@ -1,226 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Products</title>
-        <link rel="stylesheet" href="./styles/navbar.css" />
-        <link rel="stylesheet" href="./styles/footer.css" />
-        <link rel="stylesheet" href="./styles/productDetail.css" />
-        <script
-            src="https://kit.fontawesome.com/17cb428520.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
-    <body>
-        <div id="landingPage-container">
-            <!--the row-1 that means inside we use "UsD" & "Help" Div-->
-            <div id="row-1">
-                <a href="####"
-                    ><div class="us-USD">
-                        <div id="us-Image">
-                            <img
-                                src="https://image.shutterstock.com/image-vector/historical-flag-united-states-48-260nw-1597080676.jpg"
-                                alt="us-USD Image"
-                            />
-                        </div>
-                        us - USD
-                    </div></a
-                >
-                <a href="####"><div class="Help">Help</div></a>
-            </div>
-
-            <!--the row-2 that means inside we use "SkinStore Content" ,"Search Bar" "Account","Cart" & "Nav Bar"Div-->
-
-            <div id="row-2">
-                <!-- that means inside we use "SkinStore Content" ,"Search Bar" "Account" &"Cart"  Div-->
-
-                <div id="navAbove">
-                    <div id="skin-col">
-                        <div>
-                            <a
-                                href="index.html"
-                                style="text-decoration: none; color: #333"
-                                >SkinStore</a
-                            >
-                        </div>
-                        <div>part of the <span>LOOKFANTASTIC</span> group</div>
-                    </div>
-                    <div id="search-col">
-                        <input
-                            id="search"
-                            type="text"
-                            placeholder="Search for a product or a brand..."
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/productDetail.css">
+    <script src="https://kit.fontawesome.com/17cb428520.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="landingPage-container">
+        <div id="row-1">
+            <a href="####"
+                ><div class="us-USD">
+                    <div id="us-Image">
+                        <img
+                            src="https://image.shutterstock.com/image-vector/historical-flag-united-states-48-260nw-1597080676.jpg"
+                            alt="us-USD Image"
                         />
-                        <i class="fas fa-search"></i>
                     </div>
-                    <div id="a-col">
-                        <div class="dropdown">
-                            <button
-                                class="dropbtn"
-                                onclick="window.location.href"
-                                ="######"
-                                id="ac"
-                            >
-                                <i class="far fa-user"></i> <span>Account</span>
-                            </button>
+                    us - USD
+                </div></a
+            >
+            <a href="####"><div class="Help">Help</div></a>
+        </div>
+        <div id="row-2">
+            <!-- that means inside we use "SkinStore Content" ,"Search Bar" "Account" &"Cart"  Div-->
 
-                            <div class="dropdown-content">
-                                <a href="login.html">LOGIN</a>
-                                <a href="signup.html">REGISTER </a>
-                                <a href="#">Wish List</a>
-                                <a href="#">Your Order</a>
-                                <a href="#">Your Referrals</a>
-                            </div>
-                        </div>
+            <div id="navAbove">
+                <div id="skin-col">
+                    <div>
+                        <a
+                            href="index.html"
+                            style="text-decoration: none; color: #333"
+                            >SkinStore</a
+                        >
                     </div>
-                    <div id="c-col">
-                        <div class="dropdown">
-                            <button
-                                class="dropbtn"
-                                onclick="window.location.href"
-                                ="cart.html"
-                                id="cart"
-                            >
-                                <i class="fas fa-cart-arrow-down"></i
-                                ><span>Cart</span>
-                            </button>
+                    <div>part of the <span>LOOKFANTASTIC</span> group</div>
+                </div>
+                <div id="search-col">
+                    <input
+                        id="search"
+                        type="text"
+                        placeholder="Search for a product or a brand..."
+                    />
+                    <i class="fas fa-search"></i>
+                </div>
+                <div id="a-col">
+                    <div class="dropdown">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href"
+                            ="######"
+                            id="ac"
+                        >
+                            <i class="far fa-user"></i> <span>Account</span>
+                        </button>
+
+                        <div class="dropdown-content">
+                            <a href="login.html">LOGIN</a>
+                            <a href="signup.html">REGISTER </a>
+                            <a href="#">Wish List</a>
+                            <a href="#">Your Order</a>
+                            <a href="#">Your Referrals</a>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!--" "Nav Bar" Div-->
-
-            <div id="nav-container">
-                <nav>
-                    <button onclick="navSlideOut()" id="nav-btn">
-                        <div id="nav-icon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </button>
-                    <ul id="nav-link">
-                        <li>
-                            <button
-                                id="homePage"
-                                onclick="window.location.href"
-                                ="index.html"
-                            >
-                                <i class="fas fa-home"></i>
-                            </button>
-                            <button id="nav-close" onclick="navSlideIn()">
-                                <i class="fas fa-times"></i>
-                            </button>
-                        </li>
-                        <li onclick="window.location.href" ="######">Brands</li>
-                        <li onclick="window.location.href" ="######">
-                            Memorial Day sale
-                        </li>
-                        <li onclick="window.location.href" ="######">New</li>
-                        <li onclick="window.location.href" ="######">
-                            Trending
-                        </li>
-                        <li onclick="window.location.href" ="######">
-                            Sun Care & Tanning
-                        </li>
-                        <li onclick="window.location.href" ="######">
-                            Skin Care
-                        </li>
-                        <li onclick="window.location.href" ="######">Hair</li>
-                        <li onclick="window.location.href" ="######">Makeup</li>
-                        <li onclick="window.location.href" ="######">Tools</li>
-                        <li onclick="window.location.href" ="######">
-                            Bath & Body
-                        </li>
-                        <li onclick="window.location.href" ="######">
-                            Self-Care
-                        </li>
-                        <li onclick="window.location.href" ="######">
-                            Fragrance
-                        </li>
-                        <li onclick="window.location.href" ="######">Sale</li>
-                        <li onclick="window.location.href" ="######">
-                            Build a Routine
-                        </li>
-                        <li onclick="window.location.href" ="blog.html">
-                            Blog
-                        </li>
-                    </ul>
-                </nav>
+                <div id="c-col">
+                    <div class="dropdown">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href"
+                            ="cart.html"
+                            id="cart"
+                        >
+                            <i class="fas fa-cart-arrow-down"></i
+                            ><span>Cart</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="product" class="productDiv">
+        
+
+    </div>
+    <div id="product" class="productDiv">
+        <div>
             <div>
+                <img id="main_image"/>
+                <hr>
+                <h2>Description</h2>
+                <p id="desc"></p>
+                <hr/>
+                <h2>Ingredients</h2>
+                <p id="ingredients"></p>
+                <hr/>
+                <h2>Directions</h2>
+                <ul id="directions"></ul>
+                <hr/>
+            </div>
+            <div>
+                <h1 id="title"></h1>
+                <h1 id="price"></h1>
+                <hr/>
                 <div>
-                    <img id="main_image" />
-                    <hr />
-                    <h2>Description</h2>
-                    <p id="desc"></p>
-                    <hr />
-                    <h2>Ingredients</h2>
-                    <p id="ingredients"></p>
-                    <hr />
-                    <h2>Directions</h2>
-                    <ul id="directions"></ul>
-                    <hr />
+                    <p>Quantity</p>
+                    <div>
+                        <input type="button" value="-" id="minus"/>
+                        <input type="text" id="qt"/>
+                        <input type="button" value="+" id="plus"/>
+                    </div>
+                </div>
+                <input type="button" value="ADD TO CART" id="addToCart">
+                <div id="wishlistIt">
+                    <i class="fa-regular fa-heart"></i>
+                    Save to Wisthlist
+                </div>
+                <label id="stock"></label>
+                <div class="popup">
                 </div>
                 <div>
-                    <h1 id="title"></h1>
-                    <h1 id="price"></h1>
-                    <hr />
+                    <input type="button" id="giftBtn"/>
                     <div>
-                        <p>Quantity</p>
                         <div>
-                            <input type="button" value="-" id="minus" />
-                            <input type="text" id="qt" />
-                            <input type="button" value="+" id="plus" />
-                        </div>
-                    </div>
-                    <input type="button" value="ADD TO CART" id="addToCart" />
-                    <div id="wishlistIt">
-                        <i class="fa-regular fa-heart"></i>
-                        Save to Wisthlist
-                    </div>
-                    <label id="stock"></label>
-                    <div class="popup"></div>
-                    <div>
-                        <input type="button" id="giftBtn" />
-                        <div>
+                            <img id="gift_image"/>
                             <div>
-                                <img id="gift_image" />
-                                <div>
-                                    <h3 id="gift-title"></h3>
-                                    <h3 id="gift-price"></h3>
-                                </div>
+                                <h3 id="gift-title"></h3>
+                                <h3 id="gift-price"></h3>
                             </div>
-                            <h2 id="gift-sec-title"></h2>
-                            <hr />
-                            <p id="gift-desc"></p>
-                            <input
-                                type="button"
-                                id="buy-gift"
-                                value="SHOP NOW"
-                            />
                         </div>
+                        <h2 id="gift-sec-title"></h2>
+                        <hr/>
+                        <p id="gift-desc"></p>
+                        <input type="button" id="buy-gift" value="SHOP NOW">
                     </div>
                 </div>
             </div>
-            <div>
-                <div>Customer Reviews</div>
-                <p>
-                    This product has no reviews. Be the first to write a review
-                    and you could <br />WIN A $100 Voucher
-                </p>
-                <input type="button" value="WRITE A PRODUCT REVIEW" />
-            </div>
         </div>
-        <div id="footer">Footer</div>
-    </body>
-    <script src="./scripts/productsArray.js"></script>
-    <script src="./scripts/navbar.js"></script>
-    <script src="./scripts/productDetail.js"></script>
-    <script src="./scripts/footer.js"></script>
+        <div>
+            <div>Customer Reviews</div>
+            <p>This product has no reviews. Be the first to write a review and you could <br/>WIN A $100 Voucher</p>
+            <input type="button" value="WRITE A PRODUCT REVIEW">
+        </div>
+    </div>
+    <div id="footer">Footer</div>
+</body>
+<script src="./scripts/productsArray.js"></script>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts/productDetail.js"></script>
+<script src="./scripts/footer.js"></script>
 </html>
