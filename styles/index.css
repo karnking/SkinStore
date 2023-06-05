@@ -13,7 +13,6 @@
         "a a a a a a a a a a a a"
         "b b b b b b b b b b b b"
         "c c c c c c c c c c c c";
-
 }
 
 #row-1{
@@ -36,7 +35,7 @@
 #row-3{
   grid-area: c;
   background-color: rgb(255,255,255);
-
+  padding: 0 4%;
 }
 
 
@@ -68,7 +67,6 @@
       width: 16px;
       height: 16px;
       vertical-align: sub;
-
 }
 #skin-col{
 margin-left: 30px;
@@ -423,7 +421,6 @@ padding: 1% 2%;
 }
 #skinBrands img{
  width: 100%;
-
 }
 /*  the slidingPart styles  */
 /* #slidingPart div{
@@ -775,7 +772,9 @@ background-color:rgb(242,242,242);
 }
 }
 
-
+#footerPart>img{
+  width: 100%;
+}
 .FooterLine {
 width: 97%;
 margin: 5px 20px 2px 20px;

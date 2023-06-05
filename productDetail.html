@@ -15,17 +15,31 @@
     <div id="product" class="productDiv">
         <div>
             <div>
-                <img id="main_image"/>
-                <hr>
-                <h2>Description</h2>
-                <p id="desc"></p>
-                <hr/>
-                <h2>Ingredients</h2>
-                <p id="ingredients"></p>
-                <hr/>
-                <h2>Directions</h2>
-                <ul id="directions"></ul>
-                <hr/>
+                <div>
+                    <div>
+                        <img id="main_image">
+                        <img id="hover_img">
+                    </div>
+                    <div>
+                        <img id="left_arrow">
+                        <img id="main_img"/>
+                        <img id="right_arrow">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXCQVI-wGo4Pf8EWqOAJLDfF93Ztv3jzSAVL7ErMF_p17JCJl1" alt="">
+                        4 installments with Klarna Learn More >
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,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" alt="">
+                        4 installments with Afterpay Learn More >
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,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" alt="">
+                        4 installments with Zip Learn More >
+                    </div>
+                </div>
             </div>
             <div>
                 <h1 id="title"></h1>
@@ -34,8 +48,8 @@
                 <div>
                     <p>Quantity</p>
                     <div>
-                        <input type="button" value="-" id="minus"/>
-                        <input type="text" id="qt"/>
+                        <input type="button" disabled value="-" id="minus"/>
+                        <input type="number" id="qt"/>
                         <input type="button" value="+" id="plus"/>
                     </div>
                 </div>
@@ -44,7 +58,7 @@
                     <i class="fa-regular fa-heart"></i>
                     Save to Wisthlist
                 </div>
-                <label id="stock"></label>
+                <label id="stock">In Stock</label>
                 <div class="popup">
                 </div>
                 <div>
@@ -64,6 +78,18 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+            <hr>
+            <h2 class="h2">Description</h2>
+            <p id="desc" class="pdesc"></p>
+            <hr/>
+            <h2 class="h2">Ingredients</h2>
+            <p id="ingredients" class="pdesc"></p>
+            <hr/>
+            <h2 class="h2">Directions</h2>
+            <ul id="directions" class="pdesc"></ul>
+            <hr/>
         </div>
         <div>
             <div>Customer Reviews</div>
