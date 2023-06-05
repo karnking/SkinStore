@@ -8,6 +8,7 @@ var productsArray = {
         arr : [
             {
                 id: "cl1",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11535230-2295043599450781.jpg",
                 hover_img: "https://static.thcdn.com/images/small/webp//productimg/original/11535230-8544892768833011.jpg",
                 title: "SkinCeuticals Gentle Cleanser 6.8 fl. oz",
@@ -22,6 +23,7 @@ var productsArray = {
             },
             {
                 id: "cl2",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370307-1475014852189893.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370307-3954944342301413.jpg",
                 title: "EltaMD Foaming Facial Cleanser 207ml",
@@ -36,6 +38,7 @@ var productsArray = {
             },
             {
                 id: "cl3",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11165912-1924943596087530.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11165912-2004943596135047.jpg",
                 title: "Sarah Chapman Skinesis Rapid Radiance Cleanse (100ml)",
@@ -50,6 +53,7 @@ var productsArray = {
             },
             {
                 id: "cl4",
+                qt: 1,
                 main_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289657-9384876690289403.jpg",
                 hover_img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289657-1754876690336179.jpg",
                 title: "SkinMedica AHA/BHA Exfoliating Cleanser (6oz)",
@@ -382,14 +386,32 @@ var productsArray = {
         ]
     }
 }
-var giftsArray = [{
-    id: "gift",
-    img: "https://s1.thcdn.com/productimg/0/300/300/76/10629476-1343912941-393796.jpg",
-    title: "Sarah Chapman Overnight Facial 5ml (Worth $37.00)",
-    price: "286.75",
-    sec_title: "$37 Sarah Chapman Gift",
-    desc: "Receive a free Sarah Chapman Overnight Facial 5ml (Worth $37) when you spend $100 or more on the brand. Complimentary gift will be awarded at the cart. Offer valid for a limited time only, while supplies last."
-}, ]
+var giftsArray = [
+    {
+        id: "gift",
+        img: "https://s1.thcdn.com/productimg/0/300/300/76/10629476-1343912941-393796.jpg",
+        title: "Sarah Chapman Overnight Facial 5ml (Worth $37.00)",
+        price: "86.75",
+        sec_title: "$37 Sarah Chapman Gift",
+        desc: "Receive a free Sarah Chapman Overnight Facial 5ml (Worth $37) when you spend $100 or more on the brand. Complimentary gift will be awarded at the cart. Offer valid for a limited time only, while supplies last."
+    },
+    {
+        id: "gift",
+        img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12211836-9464929630333258.jpg",
+        title: "No7 Restore & Renew Multi Action Face & Neck Serum (Various Sizes)",
+        price: "286.75",
+        sec_title: "$107 No7 Restore",
+        desc: "15% off with code SS15. Offer valid for a limited time only. Exclusions apply."
+    }, 
+    {
+        id: "gift",
+        img: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12143812-1434990986152448.jpg",
+        title: "Alterna Caviar Multiplying Volume Shampoo 16.5oz (Worth $66.00)",
+        price: "55.00",
+        sec_title: "$100 Multiplying Volume Shampoo",
+        desc: "30% off with code SS30. Offer valid for a limited time only. Exclusions apply."
+    }, 
+]
 var featured = {
     brand_logo: "https://s1.thcdn.com/widgets/121-us/59/original-MicrosoftTeams-image_%2820%29-100559.png",
     product1: {

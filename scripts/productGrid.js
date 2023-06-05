@@ -226,7 +226,24 @@ function wishList(elem){
     localStorage.setItem("wishlist",JSON.stringify(wishListArr));
 }
 var cart = JSON.parse(localStorage.getItem("cart")) || []
+var cartIdx = JSON.parse(localStorage.getItem("cartIdx")) || {}
 function addToCart(elem){
-    cart.push(elem);
+    if(!cartIdx[elem.id]){
+        cart.push(elem);
+        cartIdx[elem.id] = 1;
+    }
+    else{ 
+        cartIdx[elem.id]++;
+    }
+    console.log(cartIdx["subTotal"])
+    if(cartIdx["subTotal"]){
+        cartIdx["subTotal"] += Number(elem.aPrice);
+    }
+    else {
+        cartIdx["subTotal"] = Number(elem.aPrice);
+        console.log("here",cartIdx)
+    }
+
     localStorage.setItem("cart",JSON.stringify(cart));
+    localStorage.setItem("cartIdx",JSON.stringify(cartIdx));
 }

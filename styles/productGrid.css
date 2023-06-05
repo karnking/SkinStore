@@ -20,7 +20,7 @@ input[type="button"],a,img{
     width: 22%;
 }
 #brand-shop{
-    width: 40%;
+    width: 55%;
     background-color: white;
     border: 0;
     margin-top: 20px;
@@ -170,7 +170,7 @@ input[type="button"],a,img{
 #product-grid>div>i{
     position:absolute;
     margin-top: 0.4em;
-    margin-left: 11.5em;
+    margin-left: 16%;
     font-size: 23px;
     border-radius: 200rem;
     padding: 7px;
@@ -291,3 +291,118 @@ input[type="button"],a,img{
     transform: scale(1.5);
 }
 
+@media only screen and (max-width:699px){
+    #productGrid{
+        padding: 10px;
+        width: 98%;
+    }
+    #productGrid>p{
+        display: none;
+    }
+    #productGrid>div:nth-child(2){
+        flex-direction: column;
+        width: 100%;
+    }
+    #productGrid #brand{
+        width: 60%;
+        margin-bottom: 2em;
+    }
+    #productGrid #brand #brand-logo{
+        width: 100%;
+    }
+    #productGrid #brand #brand-logo+input{
+        background-color: #2e3337;
+        color: white;
+        width: 40%;
+        padding: 10px;
+    }
+    #productGrid #featured>div{
+        flex-direction: column;
+        gap: 1em
+    }
+    #productGrid #featured>div>img{
+        width: 100%;
+    }
+    #productGrid #featured>div>div{
+        text-align: center;
+    }
+    #productGrid #featured>div>div>a:first-child{
+        margin-bottom: 5px;
+        height: 4em;
+    }
+    #productGrid>div:last-child>div:first-child{
+        display: none;
+    }
+    #productGrid>div:last-child>div:last-child{
+        width: 90%;
+    }
+    #productGrid>div:last-child>div:last-child>h1{
+        font-size: 2em;
+    }
+    #product-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #product-grid>div{
+        width: 100%;
+    }
+    #product-grid>div>i{
+        margin-left: 35%;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:1099px){
+    #productGrid{
+        padding: 10px;
+        width: 98%;
+    }
+    #productGrid>p{
+        display: none;
+    }
+    #productGrid>div:nth-child(2){
+        width: 100%;
+    }
+    #productGrid #brand{
+        width: 60%;
+        margin-bottom: 2em;
+    }
+    #productGrid #brand #brand-logo{
+        width: 100%;
+    }
+    #productGrid #brand #brand-logo+input{
+        background-color: #2e3337;
+        color: white;
+        width: auto;
+        padding: 10px;
+    }
+    #productGrid #featured>div{
+        flex-direction: column;
+        gap: 1em
+    }
+    #productGrid #featured>div>img{
+        width: 100%;
+    }
+    #productGrid #featured>div>div{
+        text-align: center;
+    }
+    #productGrid #featured>div>div>a:first-child{
+        margin-bottom: 5px;
+        height: 4em;
+    }
+    #productGrid>div:last-child>div:first-child{
+        display: none;
+    }
+    #productGrid>div:last-child>div:last-child{
+        width: 100%;
+    }
+    #productGrid>div:last-child>div:last-child>h1{
+        font-size: 2em;
+    }
+    #product-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #product-grid>div{
+        width: 100%;
+    }
+    #product-grid>div>i{
+        margin-left: 35%;
+    }
+}
