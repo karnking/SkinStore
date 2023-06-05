@@ -1,0 +1,204 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    font-weight: 500;
+    color:rgb(33, 32, 32);
+}
+body
+{
+    background-color: rgb(236, 235, 235);
+    position:relative;
+    top: 150px;
+}
+#topsection
+{
+    position: fixed;
+    background-color: white;
+    width:100%;
+    top: 0px;
+    /* padding-left: 40px;;
+    padding-top: 5px;;
+    position: sticky;
+     */
+    height: 100px;
+    padding-left: 17%;
+    display: flex;
+    align-items: center;
+}
+#topsection>img
+{
+    width: 200px;
+}
+
+
+.checkoutBox{
+    width: 65%;
+    margin: auto;
+}
+
+.infoSection{
+    width: 66%;
+    
+}
+
+.cartSection{
+    width: 33%;
+}
+
+.addressSection{
+    padding: 24px;
+    margin: 32px 0px;
+    background-color: white;
+}
+
+.shippingText{
+    color: rgb(51, 51, 51);
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.delhiveryAddress{
+    margin: 0 0 24px;
+    margin-top: 16px;
+}
+
+.countryRegion{
+    float: none;
+    display: block;
+    line-height: inherit;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.country select{
+    width: 100%;
+    height: 41px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 12px 8px;
+
+}
+
+.fullName{
+    margin: 0 0 24px;
+}
+
+.fullName label{
+    float: none;
+    display: block;
+    line-height: inherit;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.fullName input{
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.userAddress{
+    margin: 0 0 24px;
+}
+
+.userAddress label{
+    float: none;
+    display: block;
+    line-height: inherit;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.userAddress input{
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.cellNumber{
+    margin: 0 0 24px;
+}
+
+.cellNumber label{
+    float: none;
+    display: block;
+    line-height: inherit;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.cellNumber input{
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.paymentSection{
+    padding: 24px;
+    margin: 32px 0px;
+    background-color: white;
+}
+
+.paymentHeading{
+    color: rgb(51, 51, 51);
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.inpSection{
+    margin: 0 0 24px;
+}
+
+.labeles{
+    float: none;
+    display: block;
+    line-height: inherit;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.inputs{
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s;
+    border: 1px solid rgb(46, 51, 55);
+    box-shadow: transparent 0px 0px 0px 0px;
+    background-color: rgb(46, 51, 55);
+  }
+  
+  .submitButton{
+    width: 100%;
+    background-color: rgb(46, 51, 55);
+    color: white;
+    padding: 10px 38px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover{
+      outline: none;
+      background-color: rgb(40, 189, 183);
+      color: rgb(46, 51, 55);
+      border: 1px solid rgb(40, 189, 183);
+      padding: 10px 38px;
+      text-decoration: underline;
+  }
