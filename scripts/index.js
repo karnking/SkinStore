@@ -29,7 +29,7 @@ trendingOffersData.map(function (elem) {
 });
 
 // <!--Here I created the rightNowOffersData array -->    
-var rightNowOffersData = [{ image: "https://s4.thcdn.com//productimg/1600/1600/11370303-1255014851959274.jpg", name: "EltaMD UV Clear Broad-Spectrum SPF46", bPrice: 41.00, aPrice: 36.90, pageUrl: "#" },
+var rightNowOffersData = [{ image: "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289613-6975043613167717.jpg", name: "EltaMD UV Clear Broad-Spectrum SPF46", bPrice: 41.00, aPrice: 36.90, pageUrl: "#" },
 { image: "https://s4.thcdn.com//productimg/1600/1600/11370312-1945014852424127.jpg", name: "EltaMD UV Clear Tinted Broad-Spectrum SPF46", bPrice: 43.00, aPrice: 38.70, pageUrl: "#" },
 { image: "https://s4.thcdn.com//productimg/1600/1600/11289609-4505043613045506.jpg", name: "SkinCeuticals C E Ferulic with 15% L-Ascorbic Acid Vitamin C Serum 30ml", bPrice: 0, aPrice: 182, pageUrl: "#" },
 { image: "https://s4.thcdn.com//productimg/1600/1600/12538013-4764765050522444.jpg", name: "EltaMD UV Clear SPF46 Broad-Spectrum Duo (Worth $82)", bPrice: 80.00, aPrice: 72.00, pageUrl: "#" },
@@ -83,4 +83,32 @@ document.querySelector("#nav-link>li:nth-child(4)").addEventListener("click",fun
 document.querySelector("#nav-link>li:nth-child(5)").addEventListener("click",function(){
     var ele = document.querySelector("#trending");
     ele.scrollIntoView();
+})
+document.querySelector("#nav-link>li:nth-child(6)").addEventListener("click",function(){
+    localStorage.setItem("tab","moisturisers");
+    window.location.href="./productGrid.html"
+})
+document.querySelector("#nav-link>li:nth-child(7)").addEventListener("click",function(){
+    localStorage.setItem("tab","cleansers");
+    window.location.href="./productGrid.html"
+})
+document.querySelector("#nav-link>li:nth-child(8)").addEventListener("click",function(){
+    localStorage.setItem("tab","shampoo");
+    window.location.href="./productGrid.html"
+})
+document.querySelector("#nav-link>li:nth-child(9)").addEventListener("click",function(){
+    localStorage.setItem("tab","randomM");
+    window.location.href="./productGrid.html"
+})
+document.querySelector("#nav-link>li:nth-child(10)").addEventListener("click",function(){
+    localStorage.setItem("tab","randomS");
+    window.location.href="./productGrid.html"
+})
+document.querySelector("#nav-link>li:nth-child(11)").addEventListener("click",function(){
+    localStorage.setItem("tab","randomC");
+    window.location.href="./productGrid.html"
+})
+document.querySelector("#nav-link>li:nth-child(13)").addEventListener("click",function(){
+    localStorage.setItem("tab","randomM>");
+    window.location.href="./productGrid.html"
 })

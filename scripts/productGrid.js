@@ -20,7 +20,25 @@ for(x in featured){
 }
 //product grid part
 var tab = localStorage.getItem("tab");
-var tempArr = productsArray[tab].arr.slice();
+if(tab=="randomC"){
+    tab = "cleansers"
+    var tempArr = productsArray[tab].arr.slice().sort(function(a,b){
+        return Math.floor(Math.random() * (15) ) - 1;
+    });    
+}else if(tab=="randomM"){
+    tab = "moisturisers"
+    var tempArr = productsArray[tab].arr.slice().sort(function(a,b){
+        return Math.floor(Math.random() * (15) ) - 1;
+    });
+}else if(tab=="randomS"){
+    tab = "shampoo"
+    var tempArr = productsArray[tab].arr.slice().sort(function(a,b){
+        return Math.floor(Math.random() * (15) ) - 1;
+    });
+}
+else{
+    var tempArr = productsArray[tab].arr.slice();
+}
 function showGrid(elem,index){
     var boxDiv = document.createElement("div")
     var heartIcon = document.createElement("i");
@@ -235,13 +253,11 @@ function addToCart(elem){
     else{ 
         cartIdx[elem.id]++;
     }
-    console.log(cartIdx["subTotal"])
     if(cartIdx["subTotal"]){
         cartIdx["subTotal"] += Number(elem.aPrice);
     }
     else {
         cartIdx["subTotal"] = Number(elem.aPrice);
-        console.log("here",cartIdx)
     }
 
     localStorage.setItem("cart",JSON.stringify(cart));
