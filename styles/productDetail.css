@@ -338,3 +338,9 @@ input::-webkit-inner-spin-button {
         width: 90%;
     }
 }
+#landingPage-container{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 2%;
+}

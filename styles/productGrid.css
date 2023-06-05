@@ -50,7 +50,7 @@ input[type="button"],a,img{
     width: 35%;
 }
 #productGrid{
-    padding: 5%;
+    padding: 1% 5%;
 }
 #productGrid>p{
     text-align: center;
@@ -76,7 +76,7 @@ input[type="button"],a,img{
     width: 22%;
     position: sticky;
     height: 48rem;
-    top: 30px;
+    top: 20%;
 }
 #productGrid>div:last-child>div:last-child{
     width: 77%;
@@ -408,4 +408,9 @@ input[type="button"],a,img{
     #product-grid>div>i{
         margin-left: 35%;
     }
+}
+#landingPage-container{
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
