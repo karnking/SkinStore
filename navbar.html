@@ -1,93 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <title>Document</title>
-</head>
-<body>
-    <div id="landingPage-container">
-    
-        <!--the row-1 that means inside we use "UsD" & "Help" Div-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/navbar.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="landingPage-container">
+            <!--the row-1 that means inside we use "UsD" & "Help" Div-->
             <div id="row-1">
-   
-               <a href="####"><div class="us-USD"> <div id="us-Image"><img src="https://image.shutterstock.com/image-vector/historical-flag-united-states-48-260nw-1597080676.jpg" alt="us-USD Image"></div> us - USD </div></a>
-               <a href="####"><div class="Help">Help</div></a>
-   
+                <a href="####"
+                    ><div class="us-USD">
+                        <div id="us-Image">
+                            <img
+                                src="https://image.shutterstock.com/image-vector/historical-flag-united-states-48-260nw-1597080676.jpg"
+                                alt="us-USD Image"
+                            />
+                        </div>
+                        us - USD
+                    </div></a
+                >
+                <a href="####"><div class="Help">Help</div></a>
             </div>
-   
-        <!--the row-2 that means inside we use "SkinStore Content" ,"Search Bar" "Account","Cart" & "Nav Bar"Div-->
-   
+
+            <!--the row-2 that means inside we use "SkinStore Content" ,"Search Bar" "Account","Cart" & "Nav Bar"Div-->
+
             <div id="row-2">
                 <!-- that means inside we use "SkinStore Content" ,"Search Bar" "Account" &"Cart"  Div-->
-   
+
                 <div id="navAbove">
-                   <div id="skin-col">
-                       <div><a href="index.html" style="text-decoration: none; color:#333;">SkinStore</a></div>
-                       <div>part of the <span>LOOKFANTASTIC</span> group</div>
-                   </div>
-                   <div id=search-col>
-                       <input id="search" type="text" placeholder="Search for a product or a brand...">
-                       <i class="fas fa-search"></i>
-                   </div>
-                   <div id=a-col>
-                       <div class="dropdown">
-                           <button   class="dropbtn" onclick=window.location.href="######" id="ac"><i class="far fa-user"></i> <span>Account</span> </button>
-   
-                           <div class="dropdown-content">
-                             <a href="login.html">LOGIN</a>
-                             <a href="signup.html">REGISTER </a>
-                             <a href="#">Wish List</a>
-                             <a href="#">Your Order</a>
-                             <a href="#">Your Referrals</a>
-                           </div>
-                         </div>
-   
-   
-                   </div>
-                   <div id=c-col>
-                       <div class="dropdown">
-                           <button  class="dropbtn" onclick=window.location.href="cart.html"  id="cart"><i class="fas fa-cart-arrow-down"></i><span>Cart</span> </button>
-                         </div>
-                   </div>
-               </div>
-   
-                <!--" "Nav Bar" Div-->
-   
-                <div id="nav-container">
-                   <nav>
-                      <button onclick="navSlideOut()" id="nav-btn">
-                       <div id="nav-icon">
-                           <div></div>
-                           <div></div>
-                           <div></div>
-                       </div>
-                      </button>
-                       <ul id="nav-link"  >
-                           <li> 
-                               <button id="homePage" onclick= window.location.href="index.html" >  <i class="fas fa-home"></i> </button>
-                               <button id="nav-close" onclick="navSlideIn()" >   <i class="fas fa-times"></i> </button>
-                           </li>
-                           <li  onclick=window.location.href="######" >Brands</li>
-                           <li  onclick=window.location.href="######" >Memorial Day sale</li>
-                           <li  onclick=window.location.href="######" >New</li>
-                           <li  onclick=window.location.href="######" >Trending</li>
-                           <li  onclick=window.location.href="######" >Sun Care & Tanning</li>
-                           <li  onclick=window.location.href="######" >Skin Care</li>
-                           <li  onclick=window.location.href="######" >Hair</li>
-                           <li  onclick=window.location.href="######" >Makeup</li>
-                           <li  onclick=window.location.href="######" >Tools</li>
-                           <li  onclick=window.location.href="######" >Bath & Body</li>
-                           <li  onclick=window.location.href="######" >Self-Care</li>
-                           <li  onclick=window.location.href="######" >Fragrance</li>
-                           <li  onclick=window.location.href="######" >Sale</li>
-                           <li  onclick=window.location.href="######" >Build a Routine</li>
-                           <li  onclick=window.location.href="blog.html" >Blog</li>
-                       </ul>
-                   </nav>
-               </div>
+                    <div id="skin-col">
+                        <div>
+                            <a
+                                href="index.html"
+                                style="text-decoration: none; color: #333"
+                                >SkinStore</a
+                            >
+                        </div>
+                        <div>part of the <span>LOOKFANTASTIC</span> group</div>
+                    </div>
+                    <div id="search-col">
+                        <input
+                            id="search"
+                            type="text"
+                            placeholder="Search for a product or a brand..."
+                        />
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div id="a-col">
+                        <div class="dropdown">
+                            <button
+                                class="dropbtn"
+                                onclick="window.location.href"
+                                ="######"
+                                id="ac"
+                            >
+                                <i class="far fa-user"></i> <span>Account</span>
+                            </button>
+
+                            <div class="dropdown-content">
+                                <a href="login.html">LOGIN</a>
+                                <a href="signup.html">REGISTER </a>
+                                <a href="#">Wish List</a>
+                                <a href="#">Your Order</a>
+                                <a href="#">Your Referrals</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="c-col">
+                        <div class="dropdown">
+                            <button
+                                class="dropbtn"
+                                onclick="window.location.href"
+                                ="cart.html"
+                                id="cart"
+                            >
+                                <i class="fas fa-cart-arrow-down"></i
+                                ><span>Cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-</body>
+
+            <!--" "Nav Bar" Div-->
+
+            <div id="nav-container">
+                <nav>
+                    <button onclick="navSlideOut()" id="nav-btn">
+                        <div id="nav-icon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </button>
+                    <ul id="nav-link">
+                        <li>
+                            <button
+                                id="homePage"
+                                onclick="window.location.href"
+                                ="index.html"
+                            >
+                                <i class="fas fa-home"></i>
+                            </button>
+                            <button id="nav-close" onclick="navSlideIn()">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </li>
+                        <li onclick="window.location.href" ="######">Brands</li>
+                        <li onclick="window.location.href" ="######">
+                            Memorial Day sale
+                        </li>
+                        <li onclick="window.location.href" ="######">New</li>
+                        <li onclick="window.location.href" ="######">
+                            Trending
+                        </li>
+                        <li onclick="window.location.href" ="######">
+                            Sun Care & Tanning
+                        </li>
+                        <li onclick="window.location.href" ="######">
+                            Skin Care
+                        </li>
+                        <li onclick="window.location.href" ="######">Hair</li>
+                        <li onclick="window.location.href" ="######">Makeup</li>
+                        <li onclick="window.location.href" ="######">Tools</li>
+                        <li onclick="window.location.href" ="######">
+                            Bath & Body
+                        </li>
+                        <li onclick="window.location.href" ="######">
+                            Self-Care
+                        </li>
+                        <li onclick="window.location.href" ="######">
+                            Fragrance
+                        </li>
+                        <li onclick="window.location.href" ="######">Sale</li>
+                        <li onclick="window.location.href" ="######">
+                            Build a Routine
+                        </li>
+                        <li onclick="window.location.href" ="blog.html">
+                            Blog
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </body>
 </html>
