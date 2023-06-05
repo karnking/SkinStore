@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/checkout.css" />
+        <link
+            rel="icon"
+            href="https://s1.thcdn.com/checkout/resources/imgs/skstr/favicon.skstr.ico"
+        />
+        <title>Checkout</title>
+    </head>
+    <body>
+        <div id="topsection" onclick="link_location()">
+            <img
+                src="https://s1.thcdn.com/enterprise/assets/skstr-global-113e023e-ecc9-45df-abad-eb92ce1956c9-logo-default.svg"
+                alt=""
+            />
+        </div>
+
+        <!-- checkout section -->
+
+        <div class="checkoutBox">
+            <!-- card information section -->
+            <div class="infoSection">
+                <!-- flex column -->
+                <div class="addressSection">
+                    <h2 class="shippingText">1. Shipping Address</h2>
+                    <form action="">
+                        <div class="delhiveryAddress">
+                            <div class="country">
+                                <label for="countryRegion" class="countryRegion">* Country/Region</label>
+                                <select name="countryList" id="countryRegion">
+                                    <option value="1">United States</option>
+                                    <option value="2">United Kingdom</option>
+                                    <option value="3">Taiwan</option>
+                                    <option value="4">Singapore</option>
+                                    <option value="5">South Korea</option>
+                                    <option value="6">Japan</option>
+                                    <option value="7">Hong Kong</option>
+                                    <option value="8">China Mainland</option>
+                                    <option value="9">Canada</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fullName">
+                            <label for="userName">* Full Name</label>
+                            <input type="text" id="userName">
+                        </div>
+
+                        <div class="userAddress">
+                            <label for="location">Address</label>
+                            <input type="text" name="add" id="location" placeholder="Start typing your address">
+                        </div>
+                        <div class="cellNumber">
+                            <label for="number">Cell Number</label>
+                            <input type="text" name="num" id="number">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- card info section -->
+                <div class="paymentSection">
+                    <h2 class="paymentHeading">Card Details</h2>
+
+                    <form action="">
+                        <div class="cardNumber inpSection">
+                            <label for="cardNum" class="labeles">* Card Number</label>
+                            <input type="text" class="inputs">
+                        </div>
+
+                        <div class="cardName inpSection">
+                            <label for="userCardName" class="labeles">Name On Card</label>
+                            <input type="text" id="userCardName" class="inputs">
+                        </div>
+
+                        <div class="expi inpSection">
+                            <label for="expMonth" class="labeles">Expiry Month</label>
+                            <input type="text" name="expMonth" id="expMonth" class="inputs">
+                        </div>
+                        <div class="expiry inpSection">
+                            <label for="expYear" class="labeles">Expiry year</label>
+                            <input type="text" name="exp" id="expYear" class="inputs">
+                        </div>
+                        <div class="cvvSection inpSection">
+                            <label for="cvv" class="labeles">Security Code (CV2)</label>
+                            <input type="text" id="cvv" class="inputs">
+                        </div>
+
+                        <button type="submit" class="submitButton">SUBMIT MY ORDER</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <!-- cart section -->
+            <div class="cartSection"></div>
+        </div>
+    </body>
 </html>
