@@ -14,6 +14,19 @@ Index.html
 index.html hover effect on accounts
 ![image](https://github.com/karnking/SkinStore/assets/51919527/d0e69f49-1803-4718-ae1f-e9fe8f22cb15)
 
+cart.html
+![cart](https://github.com/karnking/SkinStore/assets/51919527/0f2a22dd-e3e9-4022-8642-e83559ed7484)
+
+
+
+Productsgrid.html
+
+![image](https://github.com/karnking/SkinStore/assets/51919527/ebc172f4-b900-4786-a281-ab93101aca9f)
+
+
+productdetails.html
+![image](https://github.com/karnking/SkinStore/assets/51919527/5839fb85-6ec3-42c4-be21-1c3c9018406e)
+
 login.html
 ![image](https://github.com/karnking/SkinStore/assets/51919527/895c34cf-681d-4005-99b7-dec0198f3b30)
 
@@ -24,16 +37,6 @@ signup.html
 checkout.html
 
 ![image](https://github.com/karnking/SkinStore/assets/51919527/a7f9febc-c7b1-4af4-bc22-9b4a78d54fd6)
-
-Productsgrid.html
-
-![image](https://github.com/karnking/SkinStore/assets/51919527/ebc172f4-b900-4786-a281-ab93101aca9f)
-
-
-productdetails.html
-![image](https://github.com/karnking/SkinStore/assets/51919527/5839fb85-6ec3-42c4-be21-1c3c9018406e)
-
-
 
 blog.html
 ![image](https://github.com/karnking/SkinStore/assets/51919527/4aa1139b-bc1a-4921-b3e1-115f8d4f40a8)
