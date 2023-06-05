@@ -44,6 +44,7 @@ function showProducts(){
         cross.textContent = "X"
         cross.addEventListener("click",function(){
             cart.splice(idx,1);
+            cartIdx["subTotal"]-=Number(elem.aPrice)*Number(cartIdx[elem.id]);
             delete cartIdx[elem.id];
             localStorage.setItem("cart",JSON.stringify(cart));
             localStorage.setItem("cartIdx",JSON.stringify(cartIdx));
@@ -109,5 +110,6 @@ function checkPromo(){
         promo.setAttribute("placeholder","Invalid Promo")
     }
 }
+cartIdx["promo"]="";
+localStorage.setItem("cartIdx",JSON.stringify(cartIdx));
 document.querySelector("#cartPage #products+div>input[type='text']").value = cartIdx["promo"]
-checkPromo()
