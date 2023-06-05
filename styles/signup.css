@@ -92,6 +92,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   transition: all 0.2s ease-in-out 0s;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -123,6 +124,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   transition: all 0.2s ease-in-out 0s;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -384,7 +386,7 @@ body
   margin-bottom: 32px
 }
 
-.buttonFlex{
+.buttonFlex button{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -408,12 +410,12 @@ body
   cursor: pointer;
 }
 
-.buttonFlex:hover{
+.buttonFlex button:hover{
     outline: none;
     background-color: rgb(40, 189, 183);
     color: rgb(46, 51, 55);
     border: 1px solid rgb(40, 189, 183);
-    /* padding: calc(10px) calc(38px); */
+    padding: 10px 38px;
     text-decoration: underline;
 }
 

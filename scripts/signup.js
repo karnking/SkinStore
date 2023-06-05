@@ -28,8 +28,3 @@ function storedata() {
     localStorage.setItem("userdatabase", JSON.stringify(userdatabase))
     window.location.href="./login.html";
 }
-
-
-let link_location = () => {
-    window.location.href = './index.html';
-}
