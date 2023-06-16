@@ -6,6 +6,8 @@ Skin Store Website Clone
 About skin store
   SkinStore is an online store selling cosmetics, fragrances, skin, and hair care products. It gives an online space to beauty and wellness needs that showcases some of the beauty brands and products. SkinStore aims to take shopping experience to a different level.
 
+Live at : https://skinkastore.netlify.app/
+
 Snapshots
 
 
