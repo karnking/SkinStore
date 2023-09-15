@@ -32,10 +32,6 @@ productdetails.html
 login.html
 ![image](https://github.com/karnking/SkinStore/assets/51919527/895c34cf-681d-4005-99b7-dec0198f3b30)
 
-checkout.html
-
-![image](https://github.com/karnking/SkinStore/assets/51919527/a7f9febc-c7b1-4af4-bc22-9b4a78d54fd6)
-
 blog.html
 ![image](https://github.com/karnking/SkinStore/assets/51919527/4aa1139b-bc1a-4921-b3e1-115f8d4f40a8)
 
