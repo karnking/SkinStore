@@ -38,7 +38,8 @@ blog.html
 Technology We Used\
   HTML5\
   CSS3\
-  Advanced JavaScript
+  Advanced JavaScript\
+  Node.js
   
 Features\
 You will be able to create your account using login and signup option.\
